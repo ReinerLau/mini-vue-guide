@@ -4,21 +4,71 @@
     "type": "split",
     "children": [
       {
-        "id": "c08fce377961cff1",
+        "id": "f75cd8a25aa2aa03",
         "type": "tabs",
         "children": [
           {
-            "id": "b726da3e9b1a1f1a",
+            "id": "9eeee95c87cdae68",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": ".obsidian/app.json",
-                "staged": false
+                "file": "effect.spec.ts.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8801f5f5efea6230",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "effect.ts.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dee819d07a686323",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "effect.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c29a4c786cea22b5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "reactive.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "19f118766f605bbc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ReactiveEffect.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -84,6 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "effect.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "effect.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +173,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "effect.md"
+              }
             }
           },
           {
@@ -134,10 +188,51 @@
           }
         ],
         "currentTab": 4
+      },
+      {
+        "id": "51c1d0a88f81fd67",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1dbf02429d1f0c64",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "effect.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": false,
+                  "showArrow": true,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1,
+                  "close": true
+                }
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 573.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -149,5 +244,16 @@
     }
   },
   "active": "dc4c93de66123b7d",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "effect.ts.md",
+    "effect.spec.ts.md",
+    "effect.md",
+    "reactive.md",
+    "ReactiveEffect.md",
+    "track.md",
+    "mini-vue.md",
+    "Reactivity.md",
+    "reactive.spec.ts.md",
+    "reactive.ts.md"
+  ]
 }
