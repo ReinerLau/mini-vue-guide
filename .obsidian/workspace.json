@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4270fe6bd0e2b41a",
+        "id": "c5093511f283d64f",
         "type": "tabs",
         "children": [
           {
-            "id": "7c9ded737d9cd398",
+            "id": "4505e807b32bf1af",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,7 +20,7 @@
             }
           },
           {
-            "id": "09475b878ee85d26",
+            "id": "715f1993192c6204",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -32,12 +32,12 @@
             }
           },
           {
-            "id": "49b5cef8321a3d49",
+            "id": "4e22a2bb5762de25",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "reactive.md",
+                "file": "实现 reactive.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,6 +103,7 @@
       {
         "id": "cfe22b8785ae61c3",
         "type": "tabs",
+        "dimension": 50,
         "children": [
           {
             "id": "4a163bff65c516ec",
@@ -168,13 +169,41 @@
       {
         "id": "51c1d0a88f81fd67",
         "type": "tabs",
+        "dimension": 50,
         "children": [
           {
-            "id": "ce02128eb19648b5",
+            "id": "d9093c5467f05c33",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "localgraph",
+              "state": {
+                "file": "reactive.spec.ts.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": false,
+                  "showArrow": true,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1,
+                  "close": true
+                }
+              }
             }
           }
         ]
@@ -192,17 +221,16 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "09475b878ee85d26",
+  "active": "715f1993192c6204",
   "lastOpenFiles": [
     "Reactivity.md",
-    "reactive.md",
+    "实现 reactive.md",
     "reactive.spec.ts.md",
     "reactive.ts.md",
+    "effect.spec.ts.md",
+    "trigger.md",
     "ReactiveEffect.md",
     "effect.md",
-    "effect.ts.md",
-    "effect.spec.ts.md",
-    "track.md",
-    "mini-vue.md"
+    "track.md"
   ]
 }

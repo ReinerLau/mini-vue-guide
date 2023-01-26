@@ -1,4 +1,5 @@
-其创建的实例将作为依赖被收集和触发
+# 完整代码
+
 ```ts
 class ReactiveEffect {
   private _fn: any;
@@ -14,28 +15,7 @@ class ReactiveEffect {
 }
 ```
 
-接收的函数作为私有属性，开头使用下划线和 private 标记
-```diff
-class ReactiveEffect {
-+ private _fn;
-}
-```
+# run
 
-run 方法在触发依赖回调时使用，回调中通常包含触发响应式对象的 [[reactive#proxy.get|get]] 操作而产生一些副作用
-```diff
-class ReactiveEffect {
-+ run() {
-+   this._fn();
-+ }
-}
-```
+1. [[实现 reactive#get|get]]
 
-activeEffect 用于保存当前正在执行的依赖，用于收集依赖
-```diff
-class ReactiveEffect {
-	run(){
-+		activeEffect = this
-		this._fn()_
-	}
-}
-```

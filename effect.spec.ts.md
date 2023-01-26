@@ -18,4 +18,7 @@ describe("effect", () => {
  })
 ```
 
-[[effect.ts]]
+# happy path
+
+- [[effect#run|effect]]
+- [[实现 reactive#set|set]]
