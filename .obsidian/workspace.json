@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c5093511f283d64f",
+        "id": "41048a86fd66cd04",
         "type": "tabs",
         "children": [
           {
-            "id": "6d4a2da9a706b55d",
+            "id": "83e8c8802f5622d4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "实现收集依赖.md",
+                "file": "effect.spec.ts.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "实现收集依赖.md",
+                "file": "effect.spec.ts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "实现收集依赖.md",
+                "file": "effect.spec.ts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "实现收集依赖.md"
+                "file": "effect.spec.ts.md"
               }
             }
           },
@@ -152,7 +152,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "实现收集依赖.md",
+                "file": "effect.spec.ts.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -196,17 +196,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "6d4a2da9a706b55d",
+  "active": "83e8c8802f5622d4",
   "lastOpenFiles": [
+    "实现 effect 返回 runner.md",
+    "实现 effect.md",
+    "effect.spec.ts.md",
+    "实现收集依赖.md",
     "effect.md",
     "reactive.ts.md",
     "track.md",
     "effect.ts.md",
     "trigger.md",
-    "实现收集依赖.md",
-    "Reactivity.md",
-    "effect.spec.ts.md",
-    "实现 effect.md",
-    "实现触发依赖.md"
+    "Reactivity.md"
   ]
 }
