@@ -4,47 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "f75cd8a25aa2aa03",
+        "id": "4270fe6bd0e2b41a",
         "type": "tabs",
         "children": [
           {
-            "id": "9eeee95c87cdae68",
+            "id": "7c9ded737d9cd398",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "effect.spec.ts.md",
+                "file": "Reactivity.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "8801f5f5efea6230",
+            "id": "09475b878ee85d26",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "effect.ts.md",
+                "file": "reactive.spec.ts.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "dee819d07a686323",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "effect.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c29a4c786cea22b5",
+            "id": "49b5cef8321a3d49",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -54,21 +42,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "19f118766f605bbc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ReactiveEffect.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -134,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "effect.md",
+                "file": "reactive.spec.ts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "effect.md",
+                "file": "reactive.spec.ts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "effect.md"
+                "file": "reactive.spec.ts.md"
               }
             }
           },
@@ -194,38 +170,11 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1dbf02429d1f0c64",
+            "id": "ce02128eb19648b5",
             "type": "leaf",
             "state": {
-              "type": "localgraph",
-              "state": {
-                "file": "effect.md",
-                "options": {
-                  "collapse-filter": true,
-                  "search": "",
-                  "localJumps": 1,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": false,
-                  "showArrow": true,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 1,
-                  "close": true
-                }
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -243,17 +192,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "dc4c93de66123b7d",
+  "active": "09475b878ee85d26",
   "lastOpenFiles": [
+    "Reactivity.md",
+    "reactive.md",
+    "reactive.spec.ts.md",
+    "reactive.ts.md",
+    "ReactiveEffect.md",
+    "effect.md",
     "effect.ts.md",
     "effect.spec.ts.md",
-    "effect.md",
-    "reactive.md",
-    "ReactiveEffect.md",
     "track.md",
-    "mini-vue.md",
-    "Reactivity.md",
-    "reactive.spec.ts.md",
-    "reactive.ts.md"
+    "mini-vue.md"
   ]
 }

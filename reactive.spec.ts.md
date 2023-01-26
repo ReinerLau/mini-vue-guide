@@ -11,4 +11,6 @@ describe("reactive", () => {
 });
 ```
 
-[[reactive.ts]]
+[[reactive#创建代理对象|reactive]] 返回响应式对象
+
+[[reactive#get|读取]]响应式对象属性
