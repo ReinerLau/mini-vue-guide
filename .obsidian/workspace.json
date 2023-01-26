@@ -8,43 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4505e807b32bf1af",
+            "id": "6d4a2da9a706b55d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reactivity.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "715f1993192c6204",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "reactive.spec.ts.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4e22a2bb5762de25",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "实现 reactive.md",
+                "file": "实现收集依赖.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -111,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "reactive.spec.ts.md",
+                "file": "实现收集依赖.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "reactive.spec.ts.md",
+                "file": "实现收集依赖.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "reactive.spec.ts.md"
+                "file": "实现收集依赖.md"
               }
             }
           },
@@ -177,7 +152,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "reactive.spec.ts.md",
+                "file": "实现收集依赖.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -221,16 +196,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "715f1993192c6204",
+  "active": "6d4a2da9a706b55d",
   "lastOpenFiles": [
-    "Reactivity.md",
-    "实现 reactive.md",
-    "reactive.spec.ts.md",
-    "reactive.ts.md",
-    "effect.spec.ts.md",
-    "trigger.md",
-    "ReactiveEffect.md",
     "effect.md",
-    "track.md"
+    "reactive.ts.md",
+    "track.md",
+    "effect.ts.md",
+    "trigger.md",
+    "实现收集依赖.md",
+    "Reactivity.md",
+    "effect.spec.ts.md",
+    "实现 effect.md",
+    "实现触发依赖.md"
   ]
 }
