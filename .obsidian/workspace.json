@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b3d676912ecc072a",
+        "id": "046af91d18407c5c",
         "type": "tabs",
         "children": [
           {
-            "id": "ab23214b428340b4",
+            "id": "44ed141a877fbc22",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "reactive.spec.ts.md",
+                "file": "实现 shallowReadonly.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,33 +21,19 @@
             }
           },
           {
-            "id": "72855822b3f72904",
+            "id": "f97d17a4f8b4aab2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "reactive.spec.ts.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e30efb270e2500b3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "实现嵌套对象转换.md",
+                "file": "实现 isReadonly.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -114,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "实现嵌套对象转换.md",
+                "file": "实现 shallowReadonly.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "实现嵌套对象转换.md",
+                "file": "实现 shallowReadonly.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +156,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "实现嵌套对象转换.md",
+                "file": "实现 shallowReadonly.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -214,17 +200,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "e30efb270e2500b3",
+  "active": "44ed141a877fbc22",
   "lastOpenFiles": [
     "实现 isReadonly.md",
-    "实现嵌套对象转换.md",
-    "reactive.spec.ts.md",
+    "实现 shallowReadonly.md",
+    "shallowReadonly.spec.ts.md",
     "readonly.spec.ts.md",
+    "Reactivity.md",
+    "reactive.spec.ts.md",
+    "实现嵌套对象转换.md",
     "重构 isReactive.md",
     "实现 isReactive.md",
-    "重构 baseHandler.md",
-    "effect.spec.ts.md",
-    "优化 effect 的  stop.md",
-    "重构 effect 的 stop.md"
+    "重构 baseHandler.md"
   ]
 }

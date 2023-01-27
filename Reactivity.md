@@ -1,3 +1,4 @@
 [[reactive.spec.ts]]
 [[effect.spec.ts]]
 [[readonly.spec.ts]]
+[[shallowReadonly.spec.ts]]
