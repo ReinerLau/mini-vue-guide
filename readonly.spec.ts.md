@@ -3,6 +3,7 @@
 [[实现 baseHandler]]
 [[重构 baseHandler]]
 [[实现 createReactiveObject]]
+[[实现 isReadonly]]
 ```ts
 import { readonly } from "../reactive";
 
@@ -13,6 +14,8 @@ describe("readonly", () => {
 
     expect(observed).not.toBe(original);
     expect(observed.foo).toBe(1);
+	expect(isReadonly(observed)).toBe(true);
+    expect(isReadonly(original)).toBe(false);
   });
 
   it("should call console.warn when set", () => {

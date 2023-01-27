@@ -8,11 +8,16 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e869605576e6a92c",
+            "id": "d3d65f1d9433f77f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "readonly.spec.ts.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -82,6 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "readonly.spec.ts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "readonly.spec.ts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,6 +143,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "readonly.spec.ts.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -179,17 +187,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "e869605576e6a92c",
+  "active": "d3d65f1d9433f77f",
   "lastOpenFiles": [
+    "实现 isReadonly.md",
+    "readonly.spec.ts.md",
     "重构 isReactive.md",
     "实现 isReactive.md",
     "reactive.spec.ts.md",
     "重构 baseHandler.md",
     "mini-vue.md",
     "Reactivity.md",
-    "readonly.spec.ts.md",
     "实现 baseHandler.md",
-    "重构 reative 和 readonly.md",
-    "实现 createReactiveObject.md"
+    "重构 reative 和 readonly.md"
   ]
 }
