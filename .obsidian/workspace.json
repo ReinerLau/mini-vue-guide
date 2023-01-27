@@ -4,16 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "41048a86fd66cd04",
+        "id": "57767420502a7d6d",
         "type": "tabs",
         "children": [
           {
-            "id": "83e8c8802f5622d4",
+            "id": "38c44e6d15ae7a9f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "effect.spec.ts.md",
+                "file": "实现 baseHandler.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7dd23ec628fa4909",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "实现 createReactiveObject.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "effect.spec.ts.md",
+                "file": "实现 baseHandler.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "effect.spec.ts.md",
+                "file": "实现 baseHandler.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "effect.spec.ts.md"
+                "file": "实现 baseHandler.md"
               }
             }
           },
@@ -152,7 +165,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "effect.spec.ts.md",
+                "file": "实现 baseHandler.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -196,17 +209,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "83e8c8802f5622d4",
+  "active": "38c44e6d15ae7a9f",
   "lastOpenFiles": [
-    "重构 effect 的 onStop.md",
+    "实现 createReactiveObject.md",
+    "readonly.spec.ts.md",
+    "实现 baseHandler.md",
+    "实现 readonly.md",
+    "重构 baseHandler.md",
+    "重构 reative 和 readonly.md",
+    "Reactivity.md",
     "effect.spec.ts.md",
-    "实现 effect 的 scheduler.md",
-    "实现 effect 的 onStop.md",
-    "重构 effect 的 stop.md",
-    "实现 effect 的 stop.md",
-    "实现收集依赖.md",
-    "实现 effect 返回 runner.md",
-    "实现触发依赖.md",
-    "实现 effect.md"
+    "重构 effect 的 onStop.md",
+    "实现 effect 的 scheduler.md"
   ]
 }
