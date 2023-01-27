@@ -4,23 +4,50 @@
     "type": "split",
     "children": [
       {
-        "id": "4e0af0e69e1b1c82",
+        "id": "b3d676912ecc072a",
         "type": "tabs",
         "children": [
           {
-            "id": "d5c69267c5f9c9a5",
+            "id": "ab23214b428340b4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "优化 effect 的  stop.md",
+                "file": "reactive.spec.ts.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "72855822b3f72904",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "reactive.spec.ts.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e30efb270e2500b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "实现嵌套对象转换.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -87,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "优化 effect 的  stop.md",
+                "file": "实现嵌套对象转换.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "优化 effect 的  stop.md",
+                "file": "实现嵌套对象转换.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +170,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "优化 effect 的  stop.md",
+                "file": "实现嵌套对象转换.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -187,17 +214,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "d5c69267c5f9c9a5",
+  "active": "e30efb270e2500b3",
   "lastOpenFiles": [
-    "重构 effect 的 stop.md",
-    "优化 effect 的  stop.md",
-    "实现 effect 的 stop.md",
-    "effect.spec.ts.md",
-    "Reactivity.md",
-    "readonly.spec.ts.md",
     "实现 isReadonly.md",
+    "实现嵌套对象转换.md",
+    "reactive.spec.ts.md",
+    "readonly.spec.ts.md",
     "重构 isReactive.md",
     "实现 isReactive.md",
-    "reactive.spec.ts.md"
+    "重构 baseHandler.md",
+    "effect.spec.ts.md",
+    "优化 effect 的  stop.md",
+    "重构 effect 的 stop.md"
   ]
 }
