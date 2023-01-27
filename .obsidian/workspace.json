@@ -198,15 +198,15 @@
   },
   "active": "83e8c8802f5622d4",
   "lastOpenFiles": [
+    "实现 effect 的 scheduler.md",
     "实现 effect 返回 runner.md",
-    "实现 effect.md",
     "effect.spec.ts.md",
+    "实现触发依赖.md",
+    "实现 effect.md",
     "实现收集依赖.md",
     "effect.md",
     "reactive.ts.md",
     "track.md",
-    "effect.ts.md",
-    "trigger.md",
-    "Reactivity.md"
+    "effect.ts.md"
   ]
 }

@@ -40,3 +40,33 @@ describe("effect", () => {
   });
 });
 ```
+
+[[实现 effect 的 scheduler]]
+```ts
+import { reactive } from "../reactive";
+import { effect } from "../effect";
+
+it("scheduler", () => {
+	let dummy;
+	let run;
+	const scheduler = jest.fn(() => {
+	  run = runner;
+	});
+	const obj = reactive({ foo: 1 });
+	const runner = effect(
+	  () => {
+		dummy = obj.foo;
+	  },
+	  {
+		scheduler,
+	  }
+	);
+	
+	expect(scheduler).not.toHaveBeenCalled();
+	obj.foo++;
+	expect(scheduler).toHaveBeenCalledTimes(1);
+	expect(dummy).toBe(1);
+	run();
+	expect(dummy).toBe(2);
+});
+```
