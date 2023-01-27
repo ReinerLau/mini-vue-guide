@@ -2,8 +2,9 @@
 [[实现 isReactive]]
 [[重构 isReactive]]
 [[实现嵌套对象转换]]
+[[实现 isProxy]]
 ```ts
-import { reactive, isReactive } from "../reactive";
+import { reactive, isReactive, isProxy } from "../reactive";
 
 describe("reactive", () => {
   it("happy path", () => {
@@ -15,6 +16,7 @@ describe("reactive", () => {
     expect(isReactive(orignal)).toBe(false);
     expect(isReactive(observed.bar)).toBe(true);
     expect(isReactive(orignal.bar)).toBe(false);
+    expect(isProxy(observed)).toBe(true);
   });
 });
 ```
