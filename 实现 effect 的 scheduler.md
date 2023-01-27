@@ -12,7 +12,7 @@
 ```diff
 class ReactiveEffect {
   private _fn: any;
-+ public scheduler: Function | undefined;
++ scheduler?: Function;
 
 + constructor(fn, scheduler?) {
     this._fn = fn;

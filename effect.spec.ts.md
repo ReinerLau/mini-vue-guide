@@ -70,3 +70,48 @@ it("scheduler", () => {
 	expect(dummy).toBe(2);
 });
 ```
+
+[[实现 effect 的 stop]]
+[[重构 effect 的 stop ]]
+```ts
+import { reactive } from "../reactive";
+import { effect, stop } from "../effect";
+
+it("stop", () => {
+    let dummy;
+    const obj = reactive({ prop: 1 });
+    const runner = effect(() => {
+      dummy = obj.prop;
+    });
+    obj.prop = 2;
+    expect(dummy).toBe(2);
+    stop(runner);
+    obj.prop = 3;
+    expect(dummy).toBe(2);
+    runner();
+    expect(dummy).toBe(3);
+  });
+```
+
+[[实现 effect 的 onStop]]
+[[重构 effect 的 onStop]]
+```ts
+import { reactive } from "../reactive";
+import { effect, stop } from "../effect";
+
+  it("onStop", () => {
+    let dummy;
+    const onStop = jest.fn(() => {});
+    const obj = reactive({ foo: 1 });
+    const runner = effect(
+      () => {
+        dummy = obj.foo;
+      },
+      {
+        onStop,
+      }
+    );
+    stop(runner);
+    expect(onStop).toHaveBeenCalledTimes(1);
+  });
+```
