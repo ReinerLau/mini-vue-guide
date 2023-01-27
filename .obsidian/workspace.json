@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "reactive.spec.ts.md",
+                "file": "Reactivity.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "reactive.spec.ts.md",
+                "file": "Reactivity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "reactive.spec.ts.md",
+                "file": "Reactivity.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +144,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "reactive.spec.ts.md",
+                "file": "Reactivity.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -190,15 +190,15 @@
   },
   "active": "2182a55dfd1fb99a",
   "lastOpenFiles": [
-    "实现 isProxy.md",
-    "reactive.spec.ts.md",
+    "ref.spec.ts.md",
+    "重构 ref 嵌套对象转换.md",
+    "实现 ref 嵌套对象转换.md",
+    "重构 ref.md",
+    "实现 ref.md",
     "Reactivity.md",
-    "readonly.spec.ts.md",
-    "shallowReadonly.spec.ts.md",
-    "实现 shallowReadonly.md",
-    "实现 isReadonly.md",
-    "实现嵌套对象转换.md",
-    "重构 isReactive.md",
-    "实现 isReactive.md"
+    "effect.spec.ts.md",
+    "优化 effect 的  stop.md",
+    "重构 effect 的 stop.md",
+    "实现收集依赖.md"
   ]
 }
