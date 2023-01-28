@@ -11,8 +11,13 @@
             "id": "410d1f48c80b7f73",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "实现 computed 重新计算.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -83,6 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "实现 computed 重新计算.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,6 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "实现 computed 重新计算.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,6 +144,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "实现 computed 重新计算.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -182,15 +190,15 @@
   },
   "active": "410d1f48c80b7f73",
   "lastOpenFiles": [
+    "实现 computed 缓存.md",
+    "实现 computed.md",
+    "computed.spec.ts.md",
+    "实现 computed 重新计算.md",
+    "Reactivity.md",
     "ref.spec.ts.md",
     "实现 proxyRefs.md",
-    "Reactivity.md",
     "实现 unRef.md",
     "实现 isRef.md",
-    "重构 ref 嵌套对象转换.md",
-    "实现 ref 嵌套对象转换.md",
-    "重构 ref.md",
-    "实现 ref.md",
-    "effect.spec.ts.md"
+    "重构 ref 嵌套对象转换.md"
   ]
 }

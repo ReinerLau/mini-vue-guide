@@ -3,3 +3,4 @@
 [[readonly.spec.ts]]
 [[shallowReadonly.spec.ts]]
 [[ref.spec.ts]]
+[[computed.spec.ts]]
