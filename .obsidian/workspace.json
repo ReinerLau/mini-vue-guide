@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "28ba73b1f0523bb2",
+        "id": "bbd343b2444656a7",
         "type": "tabs",
         "children": [
           {
-            "id": "9b38735c8d667cda",
+            "id": "410d1f48c80b7f73",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ref.spec.ts.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -88,7 +83,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ref.spec.ts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +99,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ref.spec.ts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +137,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "ref.spec.ts.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -167,7 +159,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.9473733538762833,
+                  "scale": 0.885467493295557,
                   "close": true
                 }
               }
@@ -188,17 +180,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "9b38735c8d667cda",
+  "active": "410d1f48c80b7f73",
   "lastOpenFiles": [
-    "实现 unRef.md",
     "ref.spec.ts.md",
-    "实现 isRef.md",
+    "实现 proxyRefs.md",
     "Reactivity.md",
+    "实现 unRef.md",
+    "实现 isRef.md",
     "重构 ref 嵌套对象转换.md",
     "实现 ref 嵌套对象转换.md",
     "重构 ref.md",
     "实现 ref.md",
-    "effect.spec.ts.md",
-    "优化 effect 的  stop.md"
+    "effect.spec.ts.md"
   ]
 }

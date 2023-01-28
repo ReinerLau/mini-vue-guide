@@ -4,9 +4,10 @@
 [[重构 ref 嵌套对象转换]]
 [[实现 isRef]]
 [[实现 unRef]]
+[[实现 proxyRefs]]
 ```ts
 import { effect } from "../effect";
-import { ref, isRef, unRef } from "../ref";
+import { ref, isRef, unRef, proxyRefs } from "../ref";
 
 describe("ref", () => {
   it("happy path", () => {
@@ -62,5 +63,25 @@ describe("ref", () => {
     expect(unRef(foo)).toBe(1);
     expect(unRef(1)).toBe(1);
   });
+
+  it("proxyRefs", () => {
+    const user = {
+      age: ref(18),
+      name: "Reiner",
+    };
+
+    const proxyUser = proxyRefs(user);
+    expect(user.age.value).toBe(18);
+    expect(proxyUser.age).toBe(18);
+    expect(proxyUser.name).toBe("Reiner");
+
+	proxyUser.age = 20;
+    expect(proxyUser.age).toBe(20);
+    expect(user.age.value).toBe(20);
+
+    proxyUser.age = ref(20);
+    expect(proxyUser.age).toBe(20);
+    expect(user.age.value).toBe(20);
+   });
 });
 ```
