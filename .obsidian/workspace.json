@@ -4,18 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "6b7234f5bfc7d254",
+        "id": "a9681de2e8762626",
         "type": "tabs",
         "children": [
           {
-            "id": "a7c74566daff05eb",
+            "id": "eb92ffeeeef57134",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "初始化 component.md",
+                "file": "createApp.md",
                 "mode": "source",
-                "backlinks": false,
+                "backlinks": true,
                 "source": false
               }
             }
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "初始化 component.md",
+                "file": "createApp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "初始化 component.md",
+                "file": "createApp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,6 +129,16 @@
               "type": "git-view",
               "state": {}
             }
+          },
+          {
+            "id": "c2b1378fb6cb6e9c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "createApp.md"
+              }
+            }
           }
         ],
         "currentTab": 3
@@ -144,7 +154,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "初始化 component.md",
+                "file": "createApp.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -188,17 +198,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "a7c74566daff05eb",
+  "active": "eb92ffeeeef57134",
   "lastOpenFiles": [
-    "初始化 element.md",
-    "patch.md",
-    "mountChildren.md",
-    "mountElement.md",
-    "processElement.md",
+    "导出 createApp.md",
+    "使用 rollup 打包库.md",
+    "导出 h.md",
+    "createVnode.md",
+    "createApp.md",
     "Runtime.md",
-    "reactive.spec.ts.md",
-    "重构 isReactive.md",
-    "reactive.md",
-    "isReactive.md"
+    "初始化 component.md",
+    "mini-vue.md",
+    "配置 rollup.md",
+    "processElement.md"
   ]
 }

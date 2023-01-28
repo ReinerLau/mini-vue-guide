@@ -1,5 +1,5 @@
 # 初始化 component
-
+`src/runtime-core/createApp.ts`
 ```ts
 import { render } from "./renderer";
 import { createVnode } from "./vnode";
@@ -13,6 +13,5 @@ export function createApp(rootComponent) {
   };
 }
 ```
-
 [[createVnode#初始化 component]]
 [[render#初始化 component]]
