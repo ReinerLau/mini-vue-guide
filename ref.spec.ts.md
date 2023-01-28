@@ -2,9 +2,11 @@
 [[重构 ref]]
 [[实现 ref 嵌套对象转换]]
 [[重构 ref 嵌套对象转换]]
+[[实现 isRef]]
+[[实现 unRef]]
 ```ts
 import { effect } from "../effect";
-import { ref } from "../ref";
+import { ref, isRef, unRef } from "../ref";
 
 describe("ref", () => {
   it("happy path", () => {
@@ -42,6 +44,23 @@ describe("ref", () => {
     expect(dummy).toBe(1);
     foo.value.count++;
     expect(dummy).toBe(2);
+  });
+
+  it("isRef", () => {
+    const foo = ref(1);
+    const user = reactive({
+      foo: 1,
+    });
+
+    expect(isRef(foo)).toBe(true);
+    expect(isRef(1)).toBe(false);
+    expect(isRef(user)).toBe(false);
+  });
+
+  it("unRef", () => {
+    const foo = ref(1);
+    expect(unRef(foo)).toBe(1);
+    expect(unRef(1)).toBe(1);
   });
 });
 ```
