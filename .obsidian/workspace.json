@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "dc829902bb8d1dd1",
+        "id": "78040339dad44723",
         "type": "tabs",
         "children": [
           {
-            "id": "9bd2013e87acb80b",
+            "id": "17af343f202bddd5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "初始化 component.md",
+                "file": "createApp.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "初始化 component.md",
+                "file": "createApp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "初始化 component.md",
+                "file": "createApp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +144,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "初始化 component.md",
+                "file": "createApp.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -188,17 +188,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "9bd2013e87acb80b",
+  "active": "17af343f202bddd5",
   "lastOpenFiles": [
-    "processComponent.md",
-    "mountComponent.md",
-    "setupComponent.md",
-    "setupRenderEffect.md",
-    "patch.md",
-    "createComponentInstance.md",
-    "render.md",
+    "createVnode.md",
     "createApp.md",
-    "setupStatefulComponet.md",
-    "handleSetupResult.md"
+    "初始化 component.md",
+    "Runtime.md",
+    "renderer.ts.md",
+    "vnode.ts.md",
+    "createApp.ts.md",
+    "component.ts.md",
+    "实现嵌套对象转换.md",
+    "reactive.spec.ts.md"
   ]
 }
