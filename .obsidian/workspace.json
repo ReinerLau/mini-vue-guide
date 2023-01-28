@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "bbd343b2444656a7",
+        "id": "dc829902bb8d1dd1",
         "type": "tabs",
         "children": [
           {
-            "id": "410d1f48c80b7f73",
+            "id": "9bd2013e87acb80b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "实现 computed 重新计算.md",
+                "file": "初始化 component.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "实现 computed 重新计算.md",
+                "file": "初始化 component.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "实现 computed 重新计算.md",
+                "file": "初始化 component.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +144,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "实现 computed 重新计算.md",
+                "file": "初始化 component.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -188,17 +188,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "410d1f48c80b7f73",
+  "active": "9bd2013e87acb80b",
   "lastOpenFiles": [
-    "实现 computed 缓存.md",
-    "实现 computed.md",
-    "computed.spec.ts.md",
-    "实现 computed 重新计算.md",
-    "Reactivity.md",
-    "ref.spec.ts.md",
-    "实现 proxyRefs.md",
-    "实现 unRef.md",
-    "实现 isRef.md",
-    "重构 ref 嵌套对象转换.md"
+    "processComponent.md",
+    "mountComponent.md",
+    "setupComponent.md",
+    "setupRenderEffect.md",
+    "patch.md",
+    "createComponentInstance.md",
+    "render.md",
+    "createApp.md",
+    "setupStatefulComponet.md",
+    "handleSetupResult.md"
   ]
 }
