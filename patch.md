@@ -7,3 +7,17 @@ function patch(vnode, container) {
 ```
 
 [[processComponent#初始化 component]]
+
+# 初始化 element
+
+```diff
+function patch(vnode, container) {
++ if (typeof vnode.type === "string") {
++   processElement(vnode, container);
++ } else if (isObject(vnode.type)) {
+    processComponent(vnode, container);
++ }
+}
+```
+
+[[processElement#初始化 element]]
