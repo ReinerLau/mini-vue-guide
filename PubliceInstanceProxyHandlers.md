@@ -1,5 +1,7 @@
 `src/runtime-core/componentPublicInstance.ts`
 
+# 实现组件代理对象
+
 提取组件代理对象的逻辑
 ```ts
 export const PubliceInstanceProxyHandlers = {

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "741e0e18137e21d5",
+        "id": "28a8a8d7c2ffb57b",
         "type": "tabs",
         "children": [
           {
-            "id": "27c7997d63e5a08e",
+            "id": "30bc99a88f374b27",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -198,17 +198,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "27c7997d63e5a08e",
+  "active": "30bc99a88f374b27",
   "lastOpenFiles": [
-    "setupRenderEffect.md",
+    "实现组件代理对象.md",
+    "createVnode.md",
+    "mountElement.md",
     "mountComponent.md",
-    "setupComponent.md",
+    "setupRenderEffect.md",
     "setupStatefulComponet.md",
     "PubliceInstanceProxyHandlers.md",
-    "createComponentInstance.md",
-    "processComponent.md",
-    "patch.md",
-    "render.md",
-    "processElement.md"
+    "Runtime.md",
+    "实现 this.$el.md",
+    "setupComponent.md"
   ]
 }

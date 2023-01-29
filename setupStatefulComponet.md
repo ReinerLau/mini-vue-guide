@@ -15,6 +15,8 @@ function setupStatefulComponent(instance) {
 }
 ```
 
+# 实现组件代理对象
+
 创建代理对象绑定到组件实例上，再将组件实例上的 render 的 this 指定为该代理对象
 ```diff
 function setupStatefulComponet(){

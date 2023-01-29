@@ -83,6 +83,8 @@ function mountElement(vnode, container){
 }
 ```
 
+# 实现组件代理对象
+
 保存根节点的元素
 ```diff
 function mountElement(vnode, container){

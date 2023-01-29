@@ -11,6 +11,8 @@ function mountComponent(vnode, container) {
 }
 ```
 
+# 实现组件代理对象
+
 传组件的 vnode 给 setupRenderEffect 来保存根节点上的元素
 ```diff
 function mountComponent(vnode, container){

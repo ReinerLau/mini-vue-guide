@@ -10,6 +10,8 @@ export function createVnode(type, props?, children?) {
 }
 ```
 
+# 实现组件代理对象
+
 保存根节点元素
 ```diff
 export function createVnode(type, props?, children?){

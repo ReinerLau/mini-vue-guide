@@ -9,6 +9,8 @@ function setupRenderEffect(instance, container) {
 }
 ```
 
+# 实现组件代理对象
+
 将 render 的 this 指向组件实例上的代理对象，实现通过 this 返回 setup 返回的结果
 ```diff
 function setupRenderEffect(instance, container){
