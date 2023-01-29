@@ -116,3 +116,5 @@ export const Foo = {
 [[renderSlots#实现组件 slots]]
 [[normalizeObjectSlots#实现组件 slots]]
 [[normalizSlotValue#实现组件 slots]]
+[[ShapFlags#实现组件 slots]]
+[[createVnode#实现组件 slots]]

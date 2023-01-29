@@ -33,4 +33,14 @@ export function initSlots(instance, children){
 }
 ```
 
+```diff
++ import { ShapFlags } from '../shared/ShapFlags'
+export function initSlots(instance, children){
++	const { vnode } = instance
++	if(vnode.shapFlag & ShapFlag.SLOT_CHILDREN){
+		normalizeObjectSlots(children, instance.slots)
++	}
+}
+```
+
 [[normalizeObjectSlots#实现组件 slots]]

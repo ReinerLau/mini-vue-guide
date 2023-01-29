@@ -46,3 +46,30 @@ export function createVnode(type, props?, children?){
 +	return vnode
 }
 ```
+
+# 实现组件 slots
+
+```diff
+import { ShapFlags } from '../shared/ShapFlags'
+export function createVnode(type, props?, children?){
+	const vnode = {
+		type,
+		props,
+		children,
+		shapFlags: getShapFlag(type)
+		el: null
+	}
+	 if(typeof children === 'string'){
+		vnode.shapFlags |= ShapFlags.TEXT_CHILDREN
+	 }else if(Array.isArray(children)){
+		vnode.shapFlags |= ShapFlags.ARRAY_CHILDREN
+	 }
+
++	if(vnode.type & ShapFlags.STATEFUL_COMPONENT){
++		 if(typeof children === 'object'){
++			  vnode.shapFlags |= ShapFlags.SLOT_CHILDREN
++		 }
++	}
+	return vnode
+}
+```
