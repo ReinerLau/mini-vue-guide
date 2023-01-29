@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PubliceInstanceProxyHandlers.md",
+                "file": "实现组件接收 props.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PubliceInstanceProxyHandlers.md",
+                "file": "实现组件接收 props.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PubliceInstanceProxyHandlers.md",
+                "file": "实现组件接收 props.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PubliceInstanceProxyHandlers.md"
+                "file": "实现组件接收 props.md"
               }
             }
           }
@@ -154,7 +154,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "PubliceInstanceProxyHandlers.md",
+                "file": "实现组件接收 props.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -177,7 +177,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.885467493295557,
+                  "scale": 0.6315822359175225,
                   "close": true
                 }
               }
@@ -200,9 +200,9 @@
   },
   "active": "912bb4f0dbc1e951",
   "lastOpenFiles": [
+    "PubliceInstanceProxyHandlers.md",
     "实现 createReactiveObject.md",
     "实现 shallowReadonly.md",
-    "PubliceInstanceProxyHandlers.md",
     "hasOwn.md",
     "实现组件接收 props.md",
     "createReactiveObject.md",

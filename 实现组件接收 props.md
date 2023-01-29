@@ -37,4 +37,5 @@ export const App = {
 [[setupStatefulComponet#实现组件接收 props]]
 [[createReactiveObject#实现组件接收 props]]
 [[PubliceInstanceProxyHandlers#实现组件接收 props]]
+[[hasOwn#实现组件接收 props]]
 
