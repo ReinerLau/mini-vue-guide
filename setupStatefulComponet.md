@@ -14,7 +14,6 @@ function setupStatefulComponent(instance) {
   }
 }
 ```
-[[handleSetupResult]]
 
 创建代理对象绑定到组件实例上，再将组件实例上的 render 的 this 指定为该代理对象
 ```diff
@@ -37,3 +36,47 @@ function setupStatefulComponet(){
 }
 ```
 
+通过 this.$el 访问组件根节点上的元素
+```diff
+function setupStatefullComponent(instance){
+	const Component = instance.type
+	instance.proxy = new Proxy({}, {
+		 get(target, key){
+			const { setupState } = instance
+			if(key in setupState){
+				return setupState[key]
+			}
++			if(key === '$el'){
++				return instance.vnode.el
++			}
+		 }
+	})
+	const { setup } = Component
+	if(setup){
+		 const setupResult = setup()
+		 handleSetupResult(setupResult)
+	} 
+}
+```
+
+提取代理对象的获取器逻辑
+```diff
++ import { PublicInstanceProxyHandlers } from './componentPublicInstance'
+function setupStatefullComponent(instance){
+	const Component = instance.type
++	 instance.proxy = new Proxy({}, PublicInstanceProxyHandlers)
+    const { setup } = Component
+	if(setup){
+		 const setupResult = setup()
+		   handleSetupResult(setupResult)
+	}
+}
+```
+
+PublicInstanceProxyHandlers 要获取 instance
+```diff
+
+```
+
+[[PubliceInstanceProxyHandlers]]
+[[handleSetupResult]]

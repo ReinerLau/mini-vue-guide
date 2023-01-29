@@ -18,5 +18,16 @@ function setupRenderEffect(instance, container){
 }
 ```
 
+patch 之后已经保存组件根节点上的元素，赋值给组件 vnode 的 el
+```diff
++ function setupRenderEffect(instance, vnode, container){
+	const { proxy } = instance
+	const subTree = instance.render.call(proxy)
+	patch(subTree, container)
++	vnode.el = subTree
+}
+```
+
+
 [[patch]]
 

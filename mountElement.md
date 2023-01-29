@@ -82,3 +82,22 @@ function mountElement(vnode, container){
 +	container.append(el)
 }
 ```
+
+保存根节点的元素
+```diff
+function mountElement(vnode, container){
++	const el = (vnode.el = document.createElement(vnode.type))
+	const { children } = vnode
+	if(typeof children === 'string'){
+		 el.textContent = children
+	}else if(Array.isArray(children)){
+		 mountChildren(vnode, container)
+	}
+	const { props } = vnode 
+	for(const key in props){
+		const val = props[key]
+		el.setAttribute(key, val)
+	}
+	container.append(el)
+}
+```

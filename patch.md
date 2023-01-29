@@ -6,7 +6,6 @@ function patch(vnode, container) {
   processComponent(vnode, container);
 }
 ```
-[[processComponent]]
 
 初始化 element
 ```diff
@@ -19,4 +18,6 @@ function patch(vnode, container) {
 + }
 }
 ```
+
 [[processElement]]
+[[processComponent]]

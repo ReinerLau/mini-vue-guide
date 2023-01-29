@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "mountComponent.md",
+                "file": "setupStatefulComponet.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "mountComponent.md",
+                "file": "setupStatefulComponet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "mountComponent.md",
+                "file": "setupStatefulComponet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "mountComponent.md"
+                "file": "setupStatefulComponet.md"
               }
             }
           }
@@ -154,7 +154,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "mountComponent.md",
+                "file": "setupStatefulComponet.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -200,15 +200,15 @@
   },
   "active": "27c7997d63e5a08e",
   "lastOpenFiles": [
-    "setupRenderEffect.md",
+    "PubliceInstanceProxyHandlers.md",
+    "setupStatefulComponet.md",
+    "setupComponent.md",
     "mountComponent.md",
-    "patch.md",
     "createComponentInstance.md",
-    "renderer.ts.md",
+    "setupRenderEffect.md",
     "processComponent.md",
+    "patch.md",
     "render.md",
-    "createApp.md",
-    "实现组件代理对象.md",
-    "Runtime.md"
+    "processElement.md"
   ]
 }
