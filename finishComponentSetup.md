@@ -1,5 +1,4 @@
-# 初始化 component
-
+完成组件初始化
 ```ts
 function finishComponentSetup(instance) {
   const Component = instance.type;

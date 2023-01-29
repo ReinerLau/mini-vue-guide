@@ -1,9 +1,9 @@
-# 初始化 component
+`src/runtime-core/component.ts`
 
+初始化组件
 ```ts
 export function setupComponent(instance) {
   setupStatefulComponent(instance);
 }
 ```
-
-[[setupStatefulComponet#初始化 component]]
+[[setupStatefulComponet]]

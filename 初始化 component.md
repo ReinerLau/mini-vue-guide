@@ -40,7 +40,6 @@ createApp(App).mount("#app");
 ```
 
 ```js
-// App.js
 export const App = {
   render() {
     return h("div", "hi, " + this.msg);
@@ -53,4 +52,4 @@ export const App = {
 };
 ```
 
-[[createApp#初始化 component]]
+[[createApp]]

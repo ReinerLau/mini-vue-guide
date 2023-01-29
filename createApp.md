@@ -1,5 +1,6 @@
-挂载根组件
 `src/runtime-core/createApp.ts`
+
+挂载根组件
 ```ts
 import { render } from "./renderer";
 import { createVnode } from "./vnode";

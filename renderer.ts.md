@@ -1,5 +1,0 @@
-[[render]]
-[[patch]]
-[[processComponent]]
-[[mountComponent]]
-[[setupRenderEffect]]

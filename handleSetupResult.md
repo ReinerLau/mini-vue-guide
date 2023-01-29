@@ -1,5 +1,3 @@
-# 初始化 component
-
 ```ts
 function handleSetupResult(instance, setupResult) {
   if (typeof setupResult === "object") {
@@ -9,5 +7,4 @@ function handleSetupResult(instance, setupResult) {
   finishComponentSetup(instance);
 }
 ```
-
-[[finishComponentSetup#初始化 component]]
+[[finishComponentSetup]]

@@ -1,3 +1,4 @@
 [[初始化 component]]
 [[使用 rollup 打包库]]
 [[初始化 element]]
+[[实现组件代理对象]]

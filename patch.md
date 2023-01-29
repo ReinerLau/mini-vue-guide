@@ -1,3 +1,5 @@
+`src/runtime-core/renderer.ts`
+
 初始化 component
 ```ts
 function patch(vnode, container) {

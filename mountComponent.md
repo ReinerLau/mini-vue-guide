@@ -1,6 +1,8 @@
-# 初始化 component
+`src/runtime-core/renderer.ts`
 
+挂载组件
 ```ts
+import { createComponentInstance, setupComponent } from './component.ts'
 function mountComponent(vnode, container) {
   const instance = createComponentInstance(vnode);
 
@@ -8,7 +10,6 @@ function mountComponent(vnode, container) {
   setupRenderEffect(instance, container);
 }
 ```
-
-[[createComponentInstance#初始化 component]]
-[[setupComponent#初始化 component]]
-[[setupRenderEffect#初始化 component]]
+[[createComponentInstance]]
+[[setupComponent]]
+[[setupRenderEffect]]

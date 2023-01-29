@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "35a1e516497c9e58",
+        "id": "741e0e18137e21d5",
         "type": "tabs",
         "children": [
           {
-            "id": "33fc9dd6e585f35d",
+            "id": "27c7997d63e5a08e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "mountChildren.md",
+                "file": "mountComponent.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "mountChildren.md",
+                "file": "mountComponent.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "mountChildren.md",
+                "file": "mountComponent.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "mountChildren.md"
+                "file": "mountComponent.md"
               }
             }
           }
@@ -154,7 +154,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "mountChildren.md",
+                "file": "mountComponent.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -198,17 +198,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "33fc9dd6e585f35d",
+  "active": "27c7997d63e5a08e",
   "lastOpenFiles": [
-    "mountElement.md",
-    "mountChildren.md",
+    "setupRenderEffect.md",
+    "mountComponent.md",
     "patch.md",
-    "processElement.md",
+    "createComponentInstance.md",
+    "renderer.ts.md",
+    "processComponent.md",
     "render.md",
     "createApp.md",
-    "初始化 element.md",
-    "createVnode.md",
-    "Runtime.md",
-    "导出 createApp.md"
+    "实现组件代理对象.md",
+    "Runtime.md"
   ]
 }

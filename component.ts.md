@@ -1,5 +1,0 @@
-[[createComponentInstance]]
-[[setupComponent]]
-[[setupStatefulComponet]]
-[[handleSetupResult]]
-[[finishComponentSetup]]
