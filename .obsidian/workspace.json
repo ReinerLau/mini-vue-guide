@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "28a8a8d7c2ffb57b",
+        "id": "4eb2ef9d78372990",
         "type": "tabs",
         "children": [
           {
-            "id": "30bc99a88f374b27",
+            "id": "912bb4f0dbc1e951",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "mountComponent.md",
+                "file": "实现 shapeFlags.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "mountComponent.md",
+                "file": "实现 shapeFlags.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "mountComponent.md",
+                "file": "实现 shapeFlags.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "mountComponent.md"
+                "file": "实现 shapeFlags.md"
               }
             }
           }
@@ -154,7 +154,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "mountComponent.md",
+                "file": "实现 shapeFlags.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -198,17 +198,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "30bc99a88f374b27",
+  "active": "912bb4f0dbc1e951",
   "lastOpenFiles": [
-    "实现组件代理对象.md",
-    "createVnode.md",
     "mountElement.md",
-    "mountComponent.md",
-    "setupRenderEffect.md",
-    "setupStatefulComponet.md",
-    "PubliceInstanceProxyHandlers.md",
+    "实现 shapeFlags.md",
+    "createVnode.md",
+    "patch.md",
     "Runtime.md",
-    "实现 this.$el.md",
-    "setupComponent.md"
+    "初始化 component.md",
+    "createApp.md",
+    "render.md",
+    "getShapFlag.md",
+    "ShapFlags.md"
   ]
 }

@@ -103,3 +103,23 @@ function mountElement(vnode, container){
 	container.append(el)
 }
 ```
+
+# 实现 shapFlags
+
+```diff
++ import { ShapFlags } from '../shared/ShapFlags'
+function mountElement(vnode, container){
+	const el = (vnode.el = document.createElement(vnode.type))
++	if(vnode.shapFlag & ShapFlags.TEXT_CHILDREN){
+		 el.textContent = children
++	}else if(vnode.shapFlag & ShapFlags.ARRAY_CHILDREN){
+		 mountChildren(vnode, el)
+	}
+	const { props } = vnode
+	for(const key in props){
+		const val = props[key]
+		el.setAttribue(key, val)
+	} 
+	container.append(el)
+}
+```

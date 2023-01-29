@@ -19,5 +19,18 @@ function patch(vnode, container) {
 }
 ```
 
+# 实现 shapFlags
+
+```diff
++ import { ShapFlags } from '../shared/ShapFlags'
+function patch(vnode, container){
++	if(vnode.shapFlag & ShapFlgs.ELEMENT){
+		 processElement(vnode, container)
++	}else if(vnode.shapFlag & ShapFlags.STATEFUL_COMPONENT){
+		 processComponent(vnode, container)
+	}
+}
+```
+
 [[processElement]]
 [[processComponent]]
