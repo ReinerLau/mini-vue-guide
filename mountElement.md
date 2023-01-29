@@ -110,6 +110,7 @@ function mountElement(vnode, container){
 + import { ShapFlags } from '../shared/ShapFlags'
 function mountElement(vnode, container){
 	const el = (vnode.el = document.createElement(vnode.type))
+	const { children } = vnode
 +	if(vnode.shapFlag & ShapFlags.TEXT_CHILDREN){
 		 el.textContent = children
 +	}else if(vnode.shapFlag & ShapFlags.ARRAY_CHILDREN){
@@ -121,5 +122,55 @@ function mountElement(vnode, container){
 		el.setAttribue(key, val)
 	} 
 	container.append(el)
+}
+```
+
+# 实现注册事件
+
+先写死一个点击事件
+```diff
+import { ShapFlags } from '../shared/ShapFlags'
+function mountElement(vnode, container){
+	const el = (vnode.el = document.createElement(vnode.type))
+	const { children } = vnode
+	if(vnode.shapFlag & ShapFlags.TEXT_CHILDREN){
+		 el.textContent = children
+	}else if(vnode.shapFlag & ShapFlags.ARRAY_CHILDREN){
+		 mountChildren(vnode, el)
+	}
+	const { props } = vnode
+	for(key in props){
+		const val = props[key]
++		if(key === 'onClick'){
++			el.addEventListener("click", val)
++		}else {
+			el.setAttribute(key, val)  
++		}
+	}
+}
+```
+
+事件改成通用匹配
+```diff
+import { ShapFlags } from '../../lib/mini-vue.esm.js'
+function mountElement(vnode, container){
+	const el = (vnode.el = document.createElement(vnode.type))
+	const { children } = vnode
+	if(vnode.shapFlag & ShapFlags.TEXT_CHILDREN){
+		 el.textContent = children
+	}else if(vnode.shapFlag & ShapFlags.ARRAY_CHILDREN){
+		 mountChildren(vnode, el)
+	}
+	const { props } = vnode
+	for(const key in props){
+		const val = props[key]
++		const isOn = (key) => /^on[A-Z]/.test(key)
++		if(isOn(key)){
++			const event = key.slice(2).toLocateLowerCase()
++			el.addEvenetListener(event, val)
+		}else {
+			el.setAttribute(key, val)
+		}
+	}
 }
 ```
