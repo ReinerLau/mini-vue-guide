@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a9681de2e8762626",
+        "id": "35a1e516497c9e58",
         "type": "tabs",
         "children": [
           {
-            "id": "eb92ffeeeef57134",
+            "id": "33fc9dd6e585f35d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "createApp.md",
+                "file": "mountChildren.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "createApp.md",
+                "file": "mountChildren.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "createApp.md",
+                "file": "mountChildren.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "createApp.md"
+                "file": "mountChildren.md"
               }
             }
           }
@@ -154,7 +154,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "createApp.md",
+                "file": "mountChildren.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -198,17 +198,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "eb92ffeeeef57134",
+  "active": "33fc9dd6e585f35d",
   "lastOpenFiles": [
-    "导出 createApp.md",
-    "使用 rollup 打包库.md",
-    "导出 h.md",
-    "createVnode.md",
+    "mountElement.md",
+    "mountChildren.md",
+    "patch.md",
+    "processElement.md",
+    "render.md",
     "createApp.md",
+    "初始化 element.md",
+    "createVnode.md",
     "Runtime.md",
-    "初始化 component.md",
-    "mini-vue.md",
-    "配置 rollup.md",
-    "processElement.md"
+    "导出 createApp.md"
   ]
 }

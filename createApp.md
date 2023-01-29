@@ -1,4 +1,4 @@
-# 初始化 component
+挂载根组件
 `src/runtime-core/createApp.ts`
 ```ts
 import { render } from "./renderer";
@@ -13,5 +13,5 @@ export function createApp(rootComponent) {
   };
 }
 ```
-[[createVnode#初始化 component]]
-[[render#初始化 component]]
+[[createVnode]]
+[[render]]

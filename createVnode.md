@@ -1,5 +1,4 @@
-# 初始化 component
-
+元素或组件对象转换为 vnode
 ```ts
 export function createVnode(type, props?, children?) {
   const vnode = {

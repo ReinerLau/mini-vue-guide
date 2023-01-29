@@ -1,16 +1,14 @@
-# 初始化 component
-
+初始化 component
 ```ts
 function patch(vnode, container) {
   processComponent(vnode, container);
 }
 ```
+[[processComponent]]
 
-[[processComponent#初始化 component]]
-
-# 初始化 element
-
+初始化 element
 ```diff
++ import { isObject } from '../shared/index'
 function patch(vnode, container) {
 + if (typeof vnode.type === "string") {
 +   processElement(vnode, container);
@@ -19,5 +17,4 @@ function patch(vnode, container) {
 + }
 }
 ```
-
-[[processElement#初始化 element]]
+[[processElement]]
