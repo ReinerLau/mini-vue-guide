@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "setupStatefulComponet.md",
+                "file": "mountComponent.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "setupStatefulComponet.md",
+                "file": "mountComponent.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "setupStatefulComponet.md",
+                "file": "mountComponent.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "setupStatefulComponet.md"
+                "file": "mountComponent.md"
               }
             }
           }
@@ -154,7 +154,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "setupStatefulComponet.md",
+                "file": "mountComponent.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -200,12 +200,12 @@
   },
   "active": "27c7997d63e5a08e",
   "lastOpenFiles": [
-    "PubliceInstanceProxyHandlers.md",
-    "setupStatefulComponet.md",
-    "setupComponent.md",
-    "mountComponent.md",
-    "createComponentInstance.md",
     "setupRenderEffect.md",
+    "mountComponent.md",
+    "setupComponent.md",
+    "setupStatefulComponet.md",
+    "PubliceInstanceProxyHandlers.md",
+    "createComponentInstance.md",
     "processComponent.md",
     "patch.md",
     "render.md",

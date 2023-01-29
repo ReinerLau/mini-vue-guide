@@ -20,6 +20,15 @@ function mountComponent(vnode, container){
 }
 ```
 
+优化可读性
+```diff
++ function mountComponet(initalVNode, container){
++	const instance = createComponentInstance(initialVNode)
+	setupComponent(instance)
++	setupRenderEffect(instance, initialVNode, container)
+}
+```
+
 [[createComponentInstance]]
 [[setupComponent]]
 [[setupRenderEffect]]

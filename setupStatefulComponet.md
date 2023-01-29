@@ -75,7 +75,16 @@ function setupStatefullComponent(instance){
 
 PublicInstanceProxyHandlers 要获取 instance
 ```diff
-
+import { PublicInstanceProxyHandlers } from './componentPublicInstance'
+function setupStatefulComponent(instance){
+	const Component = instance.type
++	instance.proxy = new Proxy({ _: instance }, PublicInstanceProxyHandlers)
+	const { setup } = instance
+	if(setup){
+		const setupResult = setup()
+		handleSetupResult(setupResult)
+	}
+}
 ```
 
 [[PubliceInstanceProxyHandlers]]

@@ -29,3 +29,22 @@ export const publicInstanceProxyHandler = {
 	}
 }
 ```
+
+为了方便拓展其他 api
+```diff
++ const publicPropertiesMap = {
++	$el: (i) => i.vnode.el
++ }
+export const PublicInstanceProxyHandler = {
+	get({ _: instance}, key){
+		 const { setupState } = instance 
+		 if(key in setupState){
+			   return setupState[key]
+		 }
++		const publicGetter = publicPropertiesMap[key]
++		if(publicGetter){
++			 return publicGetter(instance)
++		}
+	}
+}
+```
