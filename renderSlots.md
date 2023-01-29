@@ -16,4 +16,27 @@ export { h } from './h'
 + export { renderSlots } from './helpers'
 ```
 
+具名插槽
+```diff
+import { createVnode } from './vnode'
++ export function renderSlots(slots, name){
+	const slot = slots[name]
++	if(slot){
++		return createVnode('div', {}, slot)
++	}
+}
+```
+
+作用域插槽
+```diff
+export function renderSlots(slots, name, props){
+	const slot = slots[name]
+	if(slot){
+		 if(typeof slot === 'function'){
++			return createVnode('div', {}, slot(props)) 
+		 }
+	}
+}
+```
+
 [[createVnode]]

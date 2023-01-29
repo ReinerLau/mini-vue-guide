@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "实现组件 slots.md",
+                "file": "normalizeObjectSlots.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "实现组件 slots.md",
+                "file": "normalizeObjectSlots.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "实现组件 slots.md",
+                "file": "normalizeObjectSlots.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "实现组件 slots.md"
+                "file": "normalizeObjectSlots.md"
               }
             }
           },
@@ -154,7 +154,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "实现组件 slots.md",
+                "file": "normalizeObjectSlots.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -203,12 +203,12 @@
     "initSlots.md",
     "实现组件 slots.md",
     "renderSlots.md",
+    "normalizeObjectSlots.md",
+    "normalizSlotValue.md",
     "导出 h.md",
     "PubliceInstanceProxyHandlers.md",
     "setupComponent.md",
     "Runtime.md",
-    "mountChildren.md",
-    "mountElement.md",
-    "patch.md"
+    "mountChildren.md"
   ]
 }
