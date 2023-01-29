@@ -200,15 +200,15 @@
   },
   "active": "aa96698ce0d58624",
   "lastOpenFiles": [
-    "PubliceInstanceProxyHandlers.md",
-    "实现组件 slots.md",
     "initSlots.md",
+    "实现组件 slots.md",
+    "renderSlots.md",
+    "导出 h.md",
+    "PubliceInstanceProxyHandlers.md",
     "setupComponent.md",
     "Runtime.md",
     "mountChildren.md",
     "mountElement.md",
-    "patch.md",
-    "processElement.md",
-    "render.md"
+    "patch.md"
   ]
 }
