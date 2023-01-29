@@ -11,3 +11,16 @@ export function createComponentInstance(vnode) {
   return component;
 }
 ```
+
+# 实现组件接收 props
+
+```diff
+export function createComponentInstance(vnode){
+	const component = {
+		vnode,
+		type: vnode.type,
++		props: {} 
+	}
+	return component
+}
+```

@@ -81,9 +81,38 @@ import { PublicInstanceProxyHandlers } from './componentPublicInstance'
 function setupStatefulComponent(instance){
 	const Component = instance.type
 +	instance.proxy = new Proxy({ _: instance }, PublicInstanceProxyHandlers)
-	const { setup } = instance
+	const { setup } = Component
 	if(setup){
 		const setupResult = setup()
+		handleSetupResult(setupResult)
+	}
+}
+```
+
+# 实现组件接收 props
+
+```diff
+import { PublicInstanceProxyHandlers } from './componentPublicInstance'
+function setupStatefulComponent(instance){
+	const Component = instance.type
+	instance.proxy = new Proxy({ _: instance}, PublicInstanceProxyHandlers)
+	const { setup } = Component
+	if(setup){
++		const setupResult = setup(instance.props)
+		handleSetupResult(setupResult)
+	}
+}
+```
+
+```diff
+import { PublicInstanceProxyHandlers } from './componentPublicInstance'
++ import { shallowReadonly } from '../reactivity/reacitve'
+function setupStatefulComponent(instance){
+	const Component = instance.type
+	instance.proxy = new Proxy({ _: instance}, PublicInstanceProxyHandlers)
+	const { setup } = Component
+	if(setup){
++		const setupResult = setup(shallowReadonly(instance.props))
 		handleSetupResult(setupResult)
 	}
 }

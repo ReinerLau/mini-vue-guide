@@ -50,3 +50,29 @@ export const PublicInstanceProxyHandler = {
 	}
 }
 ```
+
+# 实现组件接收 props
+
+```diff
+import { hasOwn } from '../shared/index'
+
+const publicPropertiesMap = {
+	$el: (i) => i.vnode.el
+}
+export const PubliceInstanceProxyHandlers = {
+	get({ _: instance}, key){
++		 const { setupState, props } = instance
++		 if(hasOwn(setupState, key)){
+			   return setupState[key]
++		 }else if(hawOwn(props, key)){
++			   return props[key]
++		 }
+		const publicGetter = publicPropertiesMap[key]
+		if(publicGetter){
+		  return publicGetter(instance)
+		}
+	}
+}
+```
+
+[[hasOwn#实现组件接收 props]]

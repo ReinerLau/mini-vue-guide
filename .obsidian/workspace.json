@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "实现注册事件.md",
+                "file": "PubliceInstanceProxyHandlers.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "实现注册事件.md",
+                "file": "PubliceInstanceProxyHandlers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "实现注册事件.md",
+                "file": "PubliceInstanceProxyHandlers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "实现注册事件.md"
+                "file": "PubliceInstanceProxyHandlers.md"
               }
             }
           }
@@ -154,7 +154,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "实现注册事件.md",
+                "file": "PubliceInstanceProxyHandlers.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -200,15 +200,15 @@
   },
   "active": "912bb4f0dbc1e951",
   "lastOpenFiles": [
-    "mountElement.md",
-    "实现注册事件.md",
-    "Runtime.md",
-    "实现 shapeFlags.md",
-    "createVnode.md",
-    "patch.md",
-    "初始化 component.md",
-    "createApp.md",
-    "render.md",
-    "getShapFlag.md"
+    "实现 createReactiveObject.md",
+    "实现 shallowReadonly.md",
+    "PubliceInstanceProxyHandlers.md",
+    "hasOwn.md",
+    "实现组件接收 props.md",
+    "createReactiveObject.md",
+    "setupStatefulComponet.md",
+    "setupComponent.md",
+    "shallowReadonly.md",
+    "createComponentInstance.md"
   ]
 }
