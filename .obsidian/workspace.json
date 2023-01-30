@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "93bf09952866d315",
+        "id": "f13152f78593dde2",
         "type": "tabs",
         "children": [
           {
-            "id": "5a3c5ebd809cf689",
+            "id": "8fd927f8d4604607",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "实现 Text 类型节点.md",
+                "file": "实现 getCurrentInstance.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "实现 Text 类型节点.md",
+                "file": "实现 getCurrentInstance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "实现 Text 类型节点.md",
+                "file": "实现 getCurrentInstance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,25 +123,25 @@
             }
           },
           {
-            "id": "08e764922c1fbebc",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
-            }
-          },
-          {
             "id": "c2b1378fb6cb6e9c",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "实现 Text 类型节点.md"
+                "file": "实现 getCurrentInstance.md"
               }
+            }
+          },
+          {
+            "id": "4020ae720a10f167",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "51c1d0a88f81fd67",
@@ -154,7 +154,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "实现 Text 类型节点.md",
+                "file": "实现 getCurrentInstance.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -177,7 +177,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.6315822359175225,
+                  "scale": 0.885467493295557,
                   "close": true
                 }
               }
@@ -198,17 +198,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "5a3c5ebd809cf689",
+  "active": "8fd927f8d4604607",
   "lastOpenFiles": [
-    "patch.md",
-    "实现 Text 类型节点.md",
-    "processText.md",
-    "Text.md",
-    "createTextVNode.md",
+    "setCurrentInstance.md",
+    "实现 getCurrentInstance.md",
+    "setupStatefulComponet.md",
+    "getCurrentInstance.md",
+    "st.md",
+    "handleSetupResult.md",
     "Runtime.md",
     "实现组件 slots.md",
-    "实现 Fragment.md",
-    "renderSlots.md",
-    "Fragment.md"
+    "createVnode.md",
+    "setupComponent.md"
   ]
 }

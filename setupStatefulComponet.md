@@ -56,7 +56,7 @@ function setupStatefullComponent(instance){
 	const { setup } = Component
 	if(setup){
 		 const setupResult = setup()
-		 handleSetupResult(setupResult)
+		 handleSetupResult(instance, setupResult)
 	} 
 }
 ```
@@ -70,7 +70,7 @@ function setupStatefullComponent(instance){
     const { setup } = Component
 	if(setup){
 		 const setupResult = setup()
-		   handleSetupResult(setupResult)
+		 handleSetupResult(instance, setupResult)
 	}
 }
 ```
@@ -84,7 +84,7 @@ function setupStatefulComponent(instance){
 	const { setup } = Component
 	if(setup){
 		const setupResult = setup()
-		handleSetupResult(setupResult)
+		handleSetupResult(instance, setupResult)
 	}
 }
 ```
@@ -99,7 +99,7 @@ function setupStatefulComponent(instance){
 	const { setup } = Component
 	if(setup){
 +		const setupResult = setup(instance.props)
-		handleSetupResult(setupResult)
+		handleSetupResult(instance, setupResult)
 	}
 }
 ```
@@ -113,7 +113,7 @@ function setupStatefulComponent(instance){
 	const { setup } = Component
 	if(setup){
 +		const setupResult = setup(shallowReadonly(instance.props))
-		handleSetupResult(setupResult)
+		handleSetupResult(instance, setupResult)
 	}
 }
 ```
@@ -130,10 +130,50 @@ function setupStatefulComponent(instance){
 		const setupResult = setup(shallowReadonly(instance.props), {
 +			  emit: instance.emit
 		})
+		handleSetupResult(instance, setupResult)
+	}
+}
+```
+
+# 实现 getCurrentInstance
+
+```diff
++ let currentInstance
+import { publicInstanceProxyHandlers } from './componentPublicInstance'
+import { shallowReadonly } from '../reactivity/reactive'
+function setupStatefulComponent(instance){
+	const Component = instance.type
+	instance.proxy = new Proxy({_: instance}, publicInstanceProxyHandlers)
+	const { setup } = Component
+	if(setup){
++		currentInstance = instance 
+		const setupResult = setup(shallowReadonly(instance.props), {
+			emit: instance.emit
+		}) 
++		currentInstance = null
+		handleSetupResult(instance, setupResult)
+	}
+}
+```
+
+```diff
+import { PublicInstanceProxyHandlers } from './componentPublicInstance'
+import { shallowReadonly } from '../reactivity/reactive'
+function setupStatefulComponent(instance){
+	const Component = instance.type
+	instance.proxy = new Proxy({ _: instance}, PubliceInstanceProxyHandlers)
+	const { setup } = Component
+	if(setup){
++		setCurrentInstance(instance) 
+		const setupResult = setup(shallowReadonly(instance.props), {
+			  emit: instance.emit
+		})
++		setCurrentInstance(null) 
 		handleSetupResult(setupResult)
 	}
 }
 ```
 
 [[PubliceInstanceProxyHandlers]]
+[[setCurrentInstance]]
 [[handleSetupResult]]
