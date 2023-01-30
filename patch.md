@@ -32,5 +32,26 @@ function patch(vnode, container){
 }
 ```
 
+# 实现 Fragment
+
+```diff
+import { ShapFlags } from '../shared/ShapFlags'
+function patch(vnode, container){
++	const { type, shapFlag } = vnode
++	switch(type){
++		case 'Fragment':
++			processsFragment(vnode, container)
++			break
++		default:
+			if(shapFlag & ShapFlags.ELEMENT){
+				 processElement(vnode, container)
+			}else if(shapFlag & ShapFlags.STATEFUL_COMPONENT){
+				 processComponent(vnode, container)
+			}
++	}
+}
+```
+
+[[processFragment]]
 [[processElement]]
 [[processComponent]]

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "12788745039dc994",
+        "id": "d28503d0867e01db",
         "type": "tabs",
         "children": [
           {
-            "id": "a11e110bf248c59c",
+            "id": "1712e25fafdf9582",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "createComponentInstance.md",
+                "file": "renderSlots.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "createComponentInstance.md",
+                "file": "renderSlots.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "createComponentInstance.md",
+                "file": "renderSlots.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "createComponentInstance.md"
+                "file": "renderSlots.md"
               }
             }
           }
@@ -154,7 +154,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "createComponentInstance.md",
+                "file": "renderSlots.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -198,17 +198,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "a11e110bf248c59c",
+  "active": "1712e25fafdf9582",
   "lastOpenFiles": [
-    "实现组件 emit.md",
-    "emit.md",
-    "camelize.md",
-    "toHandlerKey.md",
-    "captilize.md",
-    "createComponentInstance.md",
-    "setupStatefulComponet.md",
+    "实现 Fragment.md",
+    "Fragment.md",
+    "renderSlots.md",
+    "实现组件 slots.md",
     "Runtime.md",
-    "实现组件接收 props.md",
-    "PubliceInstanceProxyHandlers.md"
+    "processFragment.md",
+    "patch.md",
+    "mountElement.md",
+    "实现组件 emit.md",
+    "createComponentInstance.md"
   ]
 }

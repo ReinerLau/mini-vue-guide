@@ -1,4 +1,4 @@
-`src/runtime-core/helpers.ts`
+	`src/helpers/renderSlots.ts`
 
 # 实现组件 slots
 
@@ -36,6 +36,32 @@ export function renderSlots(slots, name, props){
 +			return createVnode('div', {}, slot(props)) 
 		 }
 	}
+}
+```
+
+# 实现 Fragment
+
+```diff
+import { createVnode } from './vnode'
+export function renderSlots(slots, name, props){
+	const slot = slots[name]	
+	if(slot){
+		if(typeof slot === 'function'){
++			return createVnode('Fragment', {}, slot(props))
+		} 
+	}
+}
+```
+
+```diff
++ import { createVnode, Fragment } from './vnode'
+export function renderSlots(slots, name, props){
+	const slot = slots[name]
+    if(slot){
+		if(typeof slot === 'function'){
++			  return createVnode(Fragment, {}, slot(props))
+		}
+    }
 }
 ```
 
