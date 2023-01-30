@@ -8,3 +8,4 @@
 [[实现组件 emit]]
 [[实现组件 slots]]
 [[实现 Fragment]]
+[[实现 Text 类型节点]]

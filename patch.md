@@ -52,6 +52,28 @@ function patch(vnode, container){
 }
 ```
 
+# 实现 Text 类型节点
+
+```diff
++ import { Fragment, Text} from './vnode'
+function patch(vnode, container){
+	const { type, shapFlag } = vnode
+	switch(type){
+		case Fragment:
+			processFragment(vnode, container)
++		case Text:
++			processText(vnode, container)
+		default：
+			if(shapFlag & shapFlags.ELEMENT){
+				processElement(vnode, container)
+			}else if(shapFlags & shapFlags.STATEFUL_COMPONENT){
+				processComponent(vnode, container)
+			}
+	}
+}
+```
+
 [[processFragment]]
+[[processText]]
 [[processElement]]
 [[processComponent]]
