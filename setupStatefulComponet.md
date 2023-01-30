@@ -118,5 +118,22 @@ function setupStatefulComponent(instance){
 }
 ```
 
+# 实现组件 emit
+
+```diff
+import { PublicInstanceProxyHandlers } from './componentPublicInstance'
+function setupStatefulComponent(instance){
+	const Component = instance.type
+	instance.proxy = new Proxy({ _: instance}, PubliceInstanceProxyHandlers)
+	const { setup } = Component
+	if(setup){
+		const setupResult = setup(shallowReadonly(instance.props), {
++			  emit: instance.emit
+		})
+		handleSetupResult(setupResult)
+	}
+}
+```
+
 [[PubliceInstanceProxyHandlers]]
 [[handleSetupResult]]

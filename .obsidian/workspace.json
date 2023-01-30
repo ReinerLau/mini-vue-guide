@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "adc782953bf40d40",
+        "id": "12788745039dc994",
         "type": "tabs",
         "children": [
           {
-            "id": "aa96698ce0d58624",
+            "id": "a11e110bf248c59c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "实现组件 slots.md",
+                "file": "emit.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "实现组件 slots.md",
+                "file": "emit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "实现组件 slots.md",
+                "file": "emit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,25 +123,25 @@
             }
           },
           {
-            "id": "c2b1378fb6cb6e9c",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "实现组件 slots.md"
-              }
-            }
-          },
-          {
-            "id": "4020ae720a10f167",
+            "id": "08e764922c1fbebc",
             "type": "leaf",
             "state": {
               "type": "git-view",
               "state": {}
             }
+          },
+          {
+            "id": "c2b1378fb6cb6e9c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "emit.md"
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "51c1d0a88f81fd67",
@@ -154,7 +154,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "实现组件 slots.md",
+                "file": "emit.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -177,7 +177,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.885467493295557,
+                  "scale": 0.6315822359175225,
                   "close": true
                 }
               }
@@ -198,17 +198,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "aa96698ce0d58624",
+  "active": "a11e110bf248c59c",
   "lastOpenFiles": [
-    "createVnode.md",
-    "实现组件 slots.md",
-    "setupComponent.md",
-    "mountComponent.md",
-    "initSlots.md",
-    "ShapFlags.md",
-    "normalizeObjectSlots.md",
-    "renderSlots.md",
-    "normalizSlotValue.md",
-    "导出 h.md"
+    "camelize.md",
+    "emit.md",
+    "toHandlerKey.md",
+    "captilize.md",
+    "实现组件 emit.md",
+    "createComponentInstance.md",
+    "setupStatefulComponet.md",
+    "Runtime.md",
+    "实现组件接收 props.md",
+    "PubliceInstanceProxyHandlers.md"
   ]
 }
