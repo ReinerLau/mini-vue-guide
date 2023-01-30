@@ -40,7 +40,7 @@ export function createComponentInstance(vnode){
 }
 ```
 
-触发事件
+触发事件, 因为用户调用 emit 时不可能每次都传组件实例，所有绑定一个组件实例
 ```diff
 import { emit } from './componentEmit'
 export function createComponentInstance(vnode){
