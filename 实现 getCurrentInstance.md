@@ -1,4 +1,3 @@
-获取当前组件实例
 
 `example/helloworld/App.js`
 ```diff
@@ -31,6 +30,15 @@ export const Foo = {
 }
 ```
 
-[[getCurrentInstance#实现 getCurrentInstance]]
-[[setupStatefulComponet#实现 getCurrentInstance]]
-[[setCurrentInstance#实现 getCurrentInstance]]
+作用是获取当前组件实例
+
+只能在当前组件的 setup 方法中调用，因为是在初始化 setup 返回结果时，也就是创建组件实例之后才能获取组件实例
+`src/runtime-core/component.ts`
+```diff
+export function setupStatefulComponent(instance){
+	const Component = instance.type
+			
+}
+```
+
+通过全局变量保存当前组件实例，getCurrentInstance 函数再将该全局变量返回 
