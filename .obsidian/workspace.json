@@ -4,29 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4106940472602df2",
+        "id": "e32366fe8ed93f26",
         "type": "tabs",
         "children": [
           {
-            "id": "7a93d860a908e5f2",
+            "id": "631dd6380d69ebf4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "实现 getCurrentInstance.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d6889d0749ca5a85",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "setupStatefulComponet.md",
+                "file": "实现 provide 和 inject.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -101,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "实现 getCurrentInstance.md",
+                "file": "实现 provide 和 inject.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "实现 getCurrentInstance.md",
+                "file": "实现 provide 和 inject.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "实现 getCurrentInstance.md"
+                "file": "实现 provide 和 inject.md"
               }
             }
           },
@@ -167,7 +154,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "实现 getCurrentInstance.md",
+                "file": "实现 provide 和 inject.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -211,17 +198,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "7a93d860a908e5f2",
+  "active": "631dd6380d69ebf4",
   "lastOpenFiles": [
+    "st.md",
+    "实现 provide 和 inject.md",
     "setupStatefulComponet.md",
     "实现 getCurrentInstance.md",
-    "实现 provide 和 inject.md",
     "provide-inject.md",
     "setupComponent.md",
     "mountComponent.md",
     "processComponent.md",
     "patch.md",
-    "render.md",
-    "createApp.md"
+    "render.md"
   ]
 }
