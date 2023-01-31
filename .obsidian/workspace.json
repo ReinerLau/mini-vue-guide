@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4106940472602df2",
+        "id": "805936f30924a91a",
         "type": "tabs",
         "children": [
           {
-            "id": "7a93d860a908e5f2",
+            "id": "81ac222535651fb6",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -123,6 +123,14 @@
             }
           },
           {
+            "id": "08e764922c1fbebc",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          },
+          {
             "id": "c2b1378fb6cb6e9c",
             "type": "leaf",
             "state": {
@@ -131,17 +139,9 @@
                 "file": "实现 provide 和 inject.md"
               }
             }
-          },
-          {
-            "id": "4020ae720a10f167",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "51c1d0a88f81fd67",
@@ -177,7 +177,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.885467493295557,
+                  "scale": 0.6315822359175225,
                   "close": true
                 }
               }
@@ -198,17 +198,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "7a93d860a908e5f2",
+  "active": "81ac222535651fb6",
   "lastOpenFiles": [
     "provide-inject.md",
     "实现 provide 和 inject.md",
-    "provide.md",
+    "createComponentInstance.md",
     "Runtime.md",
-    "实现 getCurrentInstance.md",
-    "setCurrentInstance.md",
-    "setupStatefulComponet.md",
-    "getCurrentInstance.md",
-    "st.md",
-    "handleSetupResult.md"
+    "实现 Text 类型节点.md",
+    "patch.md",
+    "processText.md",
+    "Text.md",
+    "createTextVNode.md",
+    "实现组件 slots.md"
   ]
 }

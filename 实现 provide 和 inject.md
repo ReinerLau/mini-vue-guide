@@ -34,3 +34,4 @@ export const App = {
 ```
 
 [[provide-inject]]
+[[createComponentInstance#实现 provide 和 inject]]

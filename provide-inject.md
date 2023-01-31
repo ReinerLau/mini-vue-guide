@@ -9,3 +9,14 @@ export function inject(){}
 ```ts
 export * from './apiInject'
 ```
+
+```diff
++ import { getCurrentInstance } from './component'
++ export function provide(key, val){
++	const currentInstance = getCurrentInstance()
++	if(currentInstance){
++		const { provides } = instance
++		provide[key] = val
++	}
+}
+```

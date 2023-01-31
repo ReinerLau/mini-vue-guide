@@ -53,3 +53,19 @@ export function createComponentInstance(vnode){
 	return component
 }
 ```
+
+# 实现 provide 和 inject
+
+```diff
+import { emit } from './componentEmit'
+function createComponentInstance(vnode){
+	const component = {
+		 vnode,
+		 type: vnode.type,
+		 props: {},
+		 emit: emit.bind(null, component),
++		 provides: {}
+	}
+	return component
+}
+```
