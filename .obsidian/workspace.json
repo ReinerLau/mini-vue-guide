@@ -200,15 +200,15 @@
   },
   "active": "7a93d860a908e5f2",
   "lastOpenFiles": [
+    "provide-inject.md",
+    "实现 provide 和 inject.md",
+    "provide.md",
     "Runtime.md",
     "实现 getCurrentInstance.md",
     "setCurrentInstance.md",
     "setupStatefulComponet.md",
     "getCurrentInstance.md",
     "st.md",
-    "handleSetupResult.md",
-    "实现组件 slots.md",
-    "createVnode.md",
-    "setupComponent.md"
+    "handleSetupResult.md"
   ]
 }
