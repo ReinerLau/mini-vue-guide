@@ -10,3 +10,4 @@
 [[实现 Fragment]]
 [[实现 Text 类型节点]]
 [[实现 getCurrentInstance]]
+[[实现 provide 和 inject]]
