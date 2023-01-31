@@ -69,3 +69,18 @@ function createComponentInstance(vnode){
 	return component
 }
 ```
+
+```diff
+import { emit } from './componentEmit'
+function createComponentInstance(vnode, parent){
+	const component = {
+		 vnode,
+		 type: vnode.type,
+		 props: {},
+		 emit: emit.bind(null, component),
+		 provides: {},
++		 parent
+	}
+	return component
+}
+```

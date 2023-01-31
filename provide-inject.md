@@ -20,3 +20,15 @@ export * from './apiInject'
 +	}
 }
 ```
+
+从父组件中获取 proivde 的属性
+```diff
++ import { getCurrentInstance } from './component'
++ export function inject(key){
++	const currentInstance = getCurrentInstance()	
++	if(currentInstance){
++		const parentProvides = currentInstance.parent.provides
++		return parentProvides[key]
++	}
+}
+```
