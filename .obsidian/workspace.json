@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e32366fe8ed93f26",
+        "id": "fc9bfe256e6ef330",
         "type": "tabs",
         "children": [
           {
-            "id": "631dd6380d69ebf4",
+            "id": "dc5046e536d00001",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "实现 provide 和 inject.md",
+                "file": "更新 element 流程搭建.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "实现 provide 和 inject.md",
+                "file": "更新 element 流程搭建.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "实现 provide 和 inject.md",
+                "file": "更新 element 流程搭建.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "实现 provide 和 inject.md"
+                "file": "更新 element 流程搭建.md"
               }
             }
           },
@@ -154,7 +154,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "实现 provide 和 inject.md",
+                "file": "更新 element 流程搭建.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -198,17 +198,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "631dd6380d69ebf4",
+  "active": "dc5046e536d00001",
   "lastOpenFiles": [
-    "st.md",
+    "Runtime.md",
+    "ref.spec.ts.md",
+    "实现 proxyRefs.md",
+    "Reactivity.md",
     "实现 provide 和 inject.md",
+    "st.md",
     "setupStatefulComponet.md",
     "实现 getCurrentInstance.md",
     "provide-inject.md",
-    "setupComponent.md",
-    "mountComponent.md",
-    "processComponent.md",
-    "patch.md",
-    "render.md"
+    "setupComponent.md"
   ]
 }
