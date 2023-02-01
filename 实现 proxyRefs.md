@@ -16,7 +16,7 @@ export function proxyRefs(objectWithRef){
 + }
 ```
 
-拦截到设置对象上的属性值时，使用 [[实现 isRef|isRef]] 判断,如果旧值是 ref 值，新值不是 ref 值，则赋值给旧值的 value 属性, 其余情况直接覆盖旧值
+拦截到设置对象上的属性值时，使用 [[实现 isRef|isRef]] 判断,如果旧值是 ref 值并且新值不是 ref 值，则赋值给旧值的 value 属性, 其余情况直接覆盖旧值
 `src/reactivity/ref.ts`
 ```diff
 export function proxyRefs(objectWithRef){
