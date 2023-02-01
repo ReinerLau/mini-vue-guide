@@ -27,3 +27,45 @@ function handleSetupResult(instance, setupResult){
 +	instance.setupState = proxyRefs(setupResult)
 }
 ```
+
+当 render 中的 ref 值更新后需要重新渲染则可以将渲染组件的过程视为依赖使用[[实现 effect|effect]]进行收集，当 ref 值更新后触发渲染组件
+`src/runtime-core/component.ts`
+```diff
++ import { effect } from '../reactivity/effect'
+function setupRenderEffect(instance, container){
++	effect(() => {
+		const { proxy } = instance
+		const subTree = instance.render.call(proxy)
+		patch(subTree, container)
++	})    
+}
+```
+
+使用组件实例上的 isMounted 标记区分初始化和更新
+`src/runtime-core/renderer.ts`
+```diff
+import { effect } from '../reactivity/effect'
+function setupRenderEffect(instance, container){
+	effect(() => {
++		 if(!instance.isMounted){
+			const { proxy } = instance
+			const subTree = instance.render.call(proxy)
+			patch(subTree, container)
++			instance.isMounted = true
++		 }else{
++			console.log('update')
++		 }
+	})
+}
+```
+
+`src/runtime-core/component.ts`
+```diff
+export function createComponentInstance(vnode){
+	return {
++		 isMounted: false
+	}
+}
+```
+
+加载

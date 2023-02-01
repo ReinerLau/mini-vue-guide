@@ -32,47 +32,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "40df80287bcae512",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "实现 unRef.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c3d1d489a28d4739",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "实现 isRef.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a3c7c1f96c681068",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ref.spec.ts.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -140,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "实现 proxyRefs.md",
+                "file": "更新 element 流程搭建.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "实现 proxyRefs.md",
+                "file": "更新 element 流程搭建.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "实现 proxyRefs.md"
+                "file": "更新 element 流程搭建.md"
               }
             }
           },
@@ -206,7 +168,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "实现 proxyRefs.md",
+                "file": "更新 element 流程搭建.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -250,14 +212,14 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "dc5046e536d00001",
+  "active": "969beabf5db93564",
   "lastOpenFiles": [
-    "实现 isRef.md",
     "实现 unRef.md",
-    "实现 proxyRefs.md",
-    "更新 element 流程搭建.md",
-    "PubliceInstanceProxyHandlers.md",
+    "实现 isRef.md",
     "ref.spec.ts.md",
+    "更新 element 流程搭建.md",
+    "实现 proxyRefs.md",
+    "PubliceInstanceProxyHandlers.md",
     "Runtime.md",
     "Reactivity.md",
     "实现 provide 和 inject.md",
