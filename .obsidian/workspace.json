@@ -4,37 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "a4394f41a7384d37",
+        "id": "b64fcc89faec1112",
         "type": "tabs",
         "children": [
           {
-            "id": "a6708d78143946e2",
+            "id": "a4aa835f1f22cfed",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "环境搭建.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8a9cef92c57279f1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "创建响应式对象.md",
+                "file": "触发依赖.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -101,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "创建响应式对象.md",
+                "file": "触发依赖.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "创建响应式对象.md",
+                "file": "触发依赖.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "创建响应式对象.md"
+                "file": "触发依赖.md"
               }
             }
           }
@@ -167,7 +153,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "创建响应式对象.md",
+                "file": "触发依赖.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -211,17 +197,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "8a9cef92c57279f1",
+  "active": "a4aa835f1f22cfed",
   "lastOpenFiles": [
     "Reactivity.md",
+    "收集依赖.md",
+    "创建依赖.md",
+    "创建响应式对象.md",
+    "触发依赖.md",
+    "环境搭建.md",
     "mini-vue.md",
     "集成 Jest.md",
-    "环境搭建.md",
     "Runtime.md",
-    "更新 element 流程搭建.md",
-    "实现 getCurrentInstance.md",
-    "conflict-files-obsidian-git.md",
-    "集成 TypeScript.md",
-    "@types.md"
+    "更新 element 流程搭建.md"
   ]
 }
