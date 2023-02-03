@@ -21,20 +21,12 @@
             }
           },
           {
-            "id": "2907ddfa87064d80",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
             "id": "8a9cef92c57279f1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "集成 Jest.md",
+                "file": "创建响应式对象.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -42,7 +34,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "集成 Jest.md",
+                "file": "创建响应式对象.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "集成 Jest.md",
+                "file": "创建响应式对象.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "集成 Jest.md"
+                "file": "创建响应式对象.md"
               }
             }
           }
@@ -175,7 +167,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "集成 Jest.md",
+                "file": "创建响应式对象.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -219,17 +211,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "08e764922c1fbebc",
+  "active": "8a9cef92c57279f1",
   "lastOpenFiles": [
-    "环境搭建.md",
+    "Reactivity.md",
     "mini-vue.md",
+    "集成 Jest.md",
+    "环境搭建.md",
     "Runtime.md",
     "更新 element 流程搭建.md",
     "实现 getCurrentInstance.md",
     "conflict-files-obsidian-git.md",
     "集成 TypeScript.md",
-    "@types.md",
-    "集成 Babel.md",
-    "集成 Jest.md"
+    "@types.md"
   ]
 }
