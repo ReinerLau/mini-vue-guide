@@ -32,8 +32,13 @@
             "id": "8a9cef92c57279f1",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "集成 Jest.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ],
@@ -104,6 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "集成 Jest.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,6 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "集成 Jest.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +156,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "集成 Jest.md"
+              }
             }
           }
         ],
@@ -166,6 +175,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "集成 Jest.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -209,17 +219,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "2fa044017785d85c",
+  "active": "08e764922c1fbebc",
   "lastOpenFiles": [
+    "环境搭建.md",
+    "mini-vue.md",
     "Runtime.md",
     "更新 element 流程搭建.md",
-    "mini-vue.md",
     "实现 getCurrentInstance.md",
     "conflict-files-obsidian-git.md",
-    "环境搭建.md",
     "集成 TypeScript.md",
     "@types.md",
     "集成 Babel.md",
-    "集成 jest.md"
+    "集成 Jest.md"
   ]
 }
