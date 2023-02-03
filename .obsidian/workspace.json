@@ -19,8 +19,25 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "2907ddfa87064d80",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "8a9cef92c57279f1",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -87,7 +104,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "环境搭建.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +120,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "环境搭建.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,9 +149,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "环境搭建.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -153,7 +166,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "环境搭建.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -197,17 +209,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "a6708d78143946e2",
+  "active": "2fa044017785d85c",
   "lastOpenFiles": [
+    "Runtime.md",
+    "更新 element 流程搭建.md",
+    "mini-vue.md",
+    "实现 getCurrentInstance.md",
+    "conflict-files-obsidian-git.md",
+    "环境搭建.md",
     "集成 TypeScript.md",
     "@types.md",
-    "环境搭建.md",
     "集成 Babel.md",
-    "集成 jest.md",
-    "mini-vue.md",
-    "实现 provide 和 inject.md",
-    "createComponentInstance.md",
-    "mountComponent.md",
-    "Runtime.md"
+    "集成 jest.md"
   ]
 }
