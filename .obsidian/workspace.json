@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4311ad468d6222a0",
+        "id": "a4394f41a7384d37",
         "type": "tabs",
         "children": [
           {
-            "id": "9e7200bcc68fc85d",
+            "id": "a6708d78143946e2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "实现 provide 和 inject.md",
+                "file": "环境搭建.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "4d929a5c108bc893",
@@ -88,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "实现 provide 和 inject.md",
+                "file": "环境搭建.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "实现 provide 和 inject.md",
+                "file": "环境搭建.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "实现 provide 和 inject.md"
+                "file": "环境搭建.md"
               }
             }
           }
@@ -154,7 +153,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "实现 provide 和 inject.md",
+                "file": "环境搭建.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -198,17 +197,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "9e7200bcc68fc85d",
+  "active": "a6708d78143946e2",
   "lastOpenFiles": [
-    "createComponentInstance.md",
+    "集成 TypeScript.md",
+    "@types.md",
+    "环境搭建.md",
+    "集成 Babel.md",
+    "集成 jest.md",
+    "mini-vue.md",
     "实现 provide 和 inject.md",
+    "createComponentInstance.md",
     "mountComponent.md",
-    "Runtime.md",
-    "processComponent.md",
-    "processElement.md",
-    "mountElement.md",
-    "mountChildren.md",
-    "patch.md",
-    "setupRenderEffect.md"
+    "Runtime.md"
   ]
 }

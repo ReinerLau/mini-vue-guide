@@ -1,6 +1,0 @@
-[[reactive.spec.ts]]
-[[effect.spec.ts]]
-[[readonly.spec.ts]]
-[[shallowReadonly.spec.ts]]
-[[ref.spec.ts]]
-[[computed.spec.ts]]
