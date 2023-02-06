@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reactivity.md",
+                "file": "停止依赖.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reactivity.md",
+                "file": "停止依赖.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reactivity.md",
+                "file": "停止依赖.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reactivity.md"
+                "file": "停止依赖.md"
               }
             }
           }
@@ -153,7 +153,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Reactivity.md",
+                "file": "停止依赖.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -199,14 +199,14 @@
   },
   "active": "f85616373faa1b8b",
   "lastOpenFiles": [
+    "依赖.md",
+    "Reactivity.md",
     "响应式对象.md",
     "创建响应式对象.md",
     "依赖运行器.md",
     "依赖调度器.md",
     "收集依赖.md",
     "触发依赖.md",
-    "Reactivity.md",
-    "依赖.md",
     "创建依赖.md",
     "环境搭建.md"
   ]
