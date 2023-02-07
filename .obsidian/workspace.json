@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "组件插槽.md",
+                "file": "拆箱.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "组件插槽.md",
+                "file": "拆箱.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "组件插槽.md",
+                "file": "拆箱.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "组件插槽.md"
+                "file": "拆箱.md"
               }
             }
           },
@@ -153,7 +153,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "组件插槽.md",
+                "file": "拆箱.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -199,15 +199,15 @@
   },
   "active": "6e95a8af1dc94587",
   "lastOpenFiles": [
-    "初始化组件 slots.md",
-    "组件插槽.md",
-    "渲染插槽.md",
+    "处理文本.md",
+    "拆箱.md",
+    "处理 Fragment.md",
+    "挂载多个子节点.md",
+    "初始化 element.md",
     "Runtime.md",
-    "响应式值.md",
-    "Reactivity.md",
-    "实现 proxyRefs.md",
-    "更新 element 流程搭建.md",
-    "实现 unRef.md",
-    "实现 isRef.md"
+    "处理元素.md",
+    "挂载元素.md",
+    "挂载元素子节点.md",
+    "组件插槽.md"
   ]
 }
