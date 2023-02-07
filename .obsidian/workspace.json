@@ -4,29 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6761ea519b5444d0",
+        "id": "1b9c6947cbd3b2e0",
         "type": "tabs",
         "children": [
           {
-            "id": "85d605e789c43802",
+            "id": "6e95a8af1dc94587",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "组件插槽.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "12c12baeedb91747",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "初始化组件 slots.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -135,14 +122,6 @@
             }
           },
           {
-            "id": "08e764922c1fbebc",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
-            }
-          },
-          {
             "id": "c2b1378fb6cb6e9c",
             "type": "leaf",
             "state": {
@@ -151,9 +130,17 @@
                 "file": "组件插槽.md"
               }
             }
+          },
+          {
+            "id": "4020ae720a10f167",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "51c1d0a88f81fd67",
@@ -189,7 +176,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.6315822359175225,
+                  "scale": 0.8474148479724872,
                   "close": true
                 }
               }
@@ -210,17 +197,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "85d605e789c43802",
+  "active": "6e95a8af1dc94587",
   "lastOpenFiles": [
     "初始化组件 slots.md",
     "组件插槽.md",
-    "初始化组件.md",
-    "初始化组件 props.md",
+    "渲染插槽.md",
     "Runtime.md",
-    "事件.md",
-    "触发事件.md",
-    "初始化 component.md",
-    "创建应用实例.md",
-    "挂载根组件.md"
+    "响应式值.md",
+    "Reactivity.md",
+    "实现 proxyRefs.md",
+    "更新 element 流程搭建.md",
+    "实现 unRef.md",
+    "实现 isRef.md"
   ]
 }
