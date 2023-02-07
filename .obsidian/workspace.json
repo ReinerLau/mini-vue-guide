@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "组件代理对象.md",
+                "file": "初始化组件 props.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "组件代理对象.md",
+                "file": "初始化组件 props.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "组件代理对象.md",
+                "file": "初始化组件 props.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "组件代理对象.md"
+                "file": "初始化组件 props.md"
               }
             }
           }
@@ -153,7 +153,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "组件代理对象.md",
+                "file": "初始化组件 props.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -199,15 +199,15 @@
   },
   "active": "85d605e789c43802",
   "lastOpenFiles": [
-    "Runtime.md",
-    "初始化 element.md",
-    "组件代理对象.md",
-    "初始化组件 state.md",
-    "mini-vue.md",
+    "初始化组件.md",
+    "挂载组件.md",
+    "处理组件.md",
     "拆箱.md",
-    "处理元素.md",
-    "挂载元素.md",
-    "插入元素.md",
-    "创建元素.md"
+    "渲染根组件.md",
+    "挂载根组件.md",
+    "创建应用实例.md",
+    "初始化 component.md",
+    "Runtime.md",
+    "注册事件.md"
   ]
 }
