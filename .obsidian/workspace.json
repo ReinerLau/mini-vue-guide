@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "代理响应式值.md",
+                "file": "计算属性.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "代理响应式值.md",
+                "file": "计算属性.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "代理响应式值.md",
+                "file": "计算属性.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "代理响应式值.md"
+                "file": "计算属性.md"
               }
             }
           }
@@ -153,7 +153,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "代理响应式值.md",
+                "file": "计算属性.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -199,15 +199,15 @@
   },
   "active": "8f1f566c4cd0361d",
   "lastOpenFiles": [
+    "Reactivity.md",
+    "计算属性.md",
     "响应式值.md",
+    "代理响应式值.md",
     "解构响应式值.md",
     "判断响应式值.md",
     "创建响应式值.md",
-    "Reactivity.md",
     "响应式对象.md",
     "判断代理对象.md",
-    "创建表层只读响应式对象.md",
-    "嵌套对象转换.md",
-    "判断只读响应式对象.md"
+    "创建表层只读响应式对象.md"
   ]
 }
