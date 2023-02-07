@@ -13,6 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "触发事件.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a8194529cc5d08b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "初始化组件 props.md",
                 "mode": "source",
                 "backlinks": true,
@@ -87,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "初始化组件 props.md",
+                "file": "触发事件.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "初始化组件 props.md",
+                "file": "触发事件.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "初始化组件 props.md"
+                "file": "触发事件.md"
               }
             }
           }
@@ -153,7 +166,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "初始化组件 props.md",
+                "file": "触发事件.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -199,15 +212,15 @@
   },
   "active": "85d605e789c43802",
   "lastOpenFiles": [
-    "初始化组件.md",
-    "挂载组件.md",
-    "处理组件.md",
-    "拆箱.md",
-    "渲染根组件.md",
-    "挂载根组件.md",
-    "创建应用实例.md",
-    "初始化 component.md",
+    "初始化组件 props.md",
+    "触发事件.md",
+    "事件.md",
     "Runtime.md",
-    "注册事件.md"
+    "初始化 component.md",
+    "创建应用实例.md",
+    "挂载根组件.md",
+    "渲染根组件.md",
+    "拆箱.md",
+    "处理组件.md"
   ]
 }
