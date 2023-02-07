@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "13aba15eca3e9dab",
+        "id": "6761ea519b5444d0",
         "type": "tabs",
         "children": [
           {
-            "id": "3a44c4c779e74eb1",
+            "id": "85d605e789c43802",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "拆箱.md",
+                "file": "组件代理对象.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "拆箱.md",
+                "file": "组件代理对象.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "拆箱.md",
+                "file": "组件代理对象.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "拆箱.md"
+                "file": "组件代理对象.md"
               }
             }
           }
@@ -153,7 +153,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "拆箱.md",
+                "file": "组件代理对象.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -197,17 +197,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "3a44c4c779e74eb1",
+  "active": "85d605e789c43802",
   "lastOpenFiles": [
+    "Runtime.md",
+    "初始化 element.md",
+    "组件代理对象.md",
+    "初始化组件 state.md",
+    "mini-vue.md",
+    "拆箱.md",
     "处理元素.md",
     "挂载元素.md",
     "插入元素.md",
-    "创建元素.md",
-    "挂载元素属性.md",
-    "拆箱.md",
-    "挂载元素子节点.md",
-    "挂载多个子节点.md",
-    "初始化 element.md",
-    "渲染组件.md"
+    "创建元素.md"
   ]
 }
