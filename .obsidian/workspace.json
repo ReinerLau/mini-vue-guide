@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "组件拆箱.md",
+                "file": "rollup 打包.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "组件拆箱.md",
+                "file": "rollup 打包.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "组件拆箱.md",
+                "file": "rollup 打包.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "组件拆箱.md"
+                "file": "rollup 打包.md"
               }
             }
           }
@@ -153,7 +153,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "组件拆箱.md",
+                "file": "rollup 打包.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -199,15 +199,15 @@
   },
   "active": "3a44c4c779e74eb1",
   "lastOpenFiles": [
+    "mini-vue.md",
+    "Runtime.md",
+    "初始化 component.md",
+    "创建应用实例.md",
+    "挂载根组件.md",
+    "渲染根组件.md",
+    "组件拆箱.md",
     "处理组件.md",
     "挂载组件.md",
-    "渲染组件.md",
-    "组件拆箱.md",
-    "渲染根组件.md",
-    "挂载根组件.md",
-    "创建 vnode.md",
-    "创建应用实例.md",
-    "初始化 component.md",
-    "初始化组件.md"
+    "渲染组件.md"
   ]
 }
