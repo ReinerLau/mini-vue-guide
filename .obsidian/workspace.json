@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "649e12595f0aa319",
+        "id": "99b34dfb73a49e36",
         "type": "tabs",
         "children": [
           {
-            "id": "d4f4b38d5279fec8",
+            "id": "f04363677d05bf17",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "更新 element.md",
+                "file": "更新元素属性.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "更新 element.md",
+                "file": "更新元素属性.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "更新 element.md",
+                "file": "更新元素属性.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "更新 element.md"
+                "file": "更新元素属性.md"
               }
             }
           },
@@ -153,7 +153,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "更新 element.md",
+                "file": "更新元素属性.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -197,17 +197,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "d4f4b38d5279fec8",
+  "active": "f04363677d05bf17",
   "lastOpenFiles": [
-    "渲染组件.md",
+    "更新元素.md",
+    "处理元素.md",
     "更新 element.md",
-    "代理响应式值.md",
     "Runtime.md",
+    "事件.md",
+    "触发事件.md",
+    "注册事件.md",
+    "挂载元素属性.md",
     "mini-vue.md",
-    "Reactivity.md",
-    "响应式值.md",
-    "依赖注入.md",
-    "获取组件实例.md",
-    "拆箱.md"
+    "更新元素属性.md"
   ]
 }
