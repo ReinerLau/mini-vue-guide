@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8f7e219294cf7b42",
+        "id": "c506e636390b4070",
         "type": "tabs",
         "children": [
           {
-            "id": "fa5c5ab6ca4fc37c",
+            "id": "756c09d5fe6b395c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -197,17 +197,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "fa5c5ab6ca4fc37c",
+  "active": "756c09d5fe6b395c",
   "lastOpenFiles": [
     "diff算法.md",
-    "右端定位指针.md",
-    "左端定位指针.md",
     "更新元素子节点.md",
-    "挂载多个子节点.md",
-    "挂载元素子节点.md",
     "更新元素.md",
     "处理元素.md",
     "更新 element.md",
-    "Runtime.md"
+    "Runtime.md",
+    "mini-vue.md",
+    "插入文本元素.md",
+    "移除元素子节点.md",
+    "更新元素属性.md"
   ]
 }
