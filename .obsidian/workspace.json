@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "新节点比旧节点多.md",
+                "file": "新节点比旧节点少.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "新节点比旧节点多.md",
+                "file": "新节点比旧节点少.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "新节点比旧节点多.md",
+                "file": "新节点比旧节点少.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "新节点比旧节点多.md"
+                "file": "新节点比旧节点少.md"
               }
             }
           },
@@ -153,7 +153,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "新节点比旧节点多.md",
+                "file": "新节点比旧节点少.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -200,14 +200,14 @@
   "active": "756c09d5fe6b395c",
   "lastOpenFiles": [
     "diff算法.md",
+    "新节点比旧节点少.md",
     "更新元素子节点.md",
+    "移除元素子节点.md",
+    "新节点比旧节点多.md",
     "更新元素.md",
     "处理元素.md",
     "更新 element.md",
     "Runtime.md",
-    "mini-vue.md",
-    "插入文本元素.md",
-    "移除元素子节点.md",
-    "更新元素属性.md"
+    "mini-vue.md"
   ]
 }
