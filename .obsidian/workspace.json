@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "fdf62cc0ddfb4232",
+        "id": "8f7e219294cf7b42",
         "type": "tabs",
         "children": [
           {
-            "id": "a6793d47be932b5f",
+            "id": "fa5c5ab6ca4fc37c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "更新元素.md",
+                "file": "diff算法.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "更新元素.md",
+                "file": "diff算法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "更新元素.md",
+                "file": "diff算法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "更新元素.md"
+                "file": "diff算法.md"
               }
             }
           },
@@ -153,7 +153,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "更新元素.md",
+                "file": "diff算法.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -197,17 +197,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "a6793d47be932b5f",
+  "active": "fa5c5ab6ca4fc37c",
   "lastOpenFiles": [
     "更新元素子节点.md",
-    "插入文本元素.md",
+    "diff算法.md",
+    "挂载多个子节点.md",
+    "挂载元素子节点.md",
     "更新元素.md",
-    "移除元素子节点.md",
     "处理元素.md",
     "更新 element.md",
     "Runtime.md",
     "mini-vue.md",
-    "更新元素属性.md",
-    "事件.md"
+    "渲染组件.md"
   ]
 }
