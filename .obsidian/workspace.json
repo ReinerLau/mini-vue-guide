@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "diff算法.md",
+                "file": "左端定位指针.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "diff算法.md",
+                "file": "左端定位指针.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "diff算法.md",
+                "file": "左端定位指针.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "diff算法.md"
+                "file": "左端定位指针.md"
               }
             }
           },
@@ -153,7 +153,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "diff算法.md",
+                "file": "左端定位指针.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -199,15 +199,15 @@
   },
   "active": "fa5c5ab6ca4fc37c",
   "lastOpenFiles": [
-    "更新元素子节点.md",
     "diff算法.md",
+    "左端定位指针.md",
+    "更新元素子节点.md",
     "挂载多个子节点.md",
     "挂载元素子节点.md",
     "更新元素.md",
     "处理元素.md",
     "更新 element.md",
     "Runtime.md",
-    "mini-vue.md",
-    "渲染组件.md"
+    "mini-vue.md"
   ]
 }
