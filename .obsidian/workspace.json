@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c506e636390b4070",
+        "id": "d1438d7d1489e922",
         "type": "tabs",
         "children": [
           {
-            "id": "756c09d5fe6b395c",
+            "id": "1d85564b195d490a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "新节点比旧节点少.md",
+                "file": "中间对比.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "新节点比旧节点少.md",
+                "file": "中间对比.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "新节点比旧节点少.md",
+                "file": "中间对比.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "新节点比旧节点少.md"
+                "file": "中间对比.md"
               }
             }
           },
@@ -153,7 +153,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "新节点比旧节点少.md",
+                "file": "中间对比.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -197,16 +197,16 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "756c09d5fe6b395c",
+  "active": "1d85564b195d490a",
   "lastOpenFiles": [
     "diff算法.md",
-    "新节点比旧节点少.md",
     "更新元素子节点.md",
-    "移除元素子节点.md",
-    "新节点比旧节点多.md",
+    "挂载多个子节点.md",
     "更新元素.md",
     "处理元素.md",
     "更新 element.md",
+    "中间对比.md",
+    "移除元素子节点.md",
     "Runtime.md",
     "mini-vue.md"
   ]
