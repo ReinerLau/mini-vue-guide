@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "中间对比.md",
+                "file": "中间对比移动.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "中间对比.md",
+                "file": "中间对比移动.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "中间对比.md",
+                "file": "中间对比移动.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "中间对比.md"
+                "file": "中间对比移动.md"
               }
             }
           },
@@ -153,7 +153,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "中间对比.md",
+                "file": "中间对比移动.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -199,15 +199,15 @@
   },
   "active": "1d85564b195d490a",
   "lastOpenFiles": [
-    "中间对比移动.md",
     "中间对比.md",
+    "中间对比创建.md",
+    "中间对比移动.md",
     "新节点比旧节点多.md",
     "diff算法.md",
     "插入元素.md",
     "中间对比删除.md",
     "更新元素子节点.md",
     "挂载多个子节点.md",
-    "更新元素.md",
-    "处理元素.md"
+    "更新元素.md"
   ]
 }
