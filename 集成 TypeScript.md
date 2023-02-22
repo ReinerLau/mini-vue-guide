@@ -18,6 +18,10 @@ npx ts-node src/index.ts
 ```
 
 jest 使用 babel 将 typescript 语法转换成 jest 认识的语法，现在运行 ts 的测试不会报错
+```shell
+yarn add @babel/preset-typescript -D
+```
+
 ```js
 // babel.config.js
 module.exports = {

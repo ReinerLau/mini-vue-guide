@@ -4,23 +4,63 @@
     "type": "split",
     "children": [
       {
-        "id": "d1438d7d1489e922",
+        "id": "7609018b0e60d6da",
         "type": "tabs",
         "children": [
           {
-            "id": "1d85564b195d490a",
+            "id": "4270f362f0dc1ead",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "中间对比移动.md",
+                "file": "mini-vue.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c3fb3201afe4e9ed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "mini-vue.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "32a52a5ba3302608",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "环境搭建.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "79b42893d3a357c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "集成 TypeScript.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -87,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "中间对比移动.md",
+                "file": "集成 TypeScript.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "中间对比移动.md",
+                "file": "集成 TypeScript.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "中间对比移动.md"
+                "file": "集成 TypeScript.md"
               }
             }
           },
@@ -153,7 +193,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "中间对比移动.md",
+                "file": "集成 TypeScript.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -197,17 +237,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "1d85564b195d490a",
+  "active": "79b42893d3a357c6",
   "lastOpenFiles": [
+    "环境搭建.md",
+    "mini-vue.md",
+    "集成 Babel.md",
+    "集成 Jest.md",
+    "中间对比移动.md",
     "中间对比.md",
     "中间对比创建.md",
-    "中间对比移动.md",
     "新节点比旧节点多.md",
     "diff算法.md",
-    "插入元素.md",
-    "中间对比删除.md",
-    "更新元素子节点.md",
-    "挂载多个子节点.md",
-    "更新元素.md"
+    "插入元素.md"
   ]
 }
